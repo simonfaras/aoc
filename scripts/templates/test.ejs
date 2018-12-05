@@ -1,0 +1,17 @@
+const { first, second } = require('./puzzle');
+
+describe('<%= year %>/<%=> day %>-1', () => {
+	it('should produce a correct answer', () => {
+		const input = 1;
+
+		expect(first(input)).toEqual("expected");
+	});
+});
+
+describe('<%= year %>/<%= day %>-2', () => {
+	it('should should produce a correct answer', () => {
+		const input = 1;
+
+		expect(second(input)).toEqual("expected");
+	});
+});

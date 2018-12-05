@@ -1,0 +1,26 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "Collection of avent of code ",
+  "bin": "bin/index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node bin/index"
+  },
+  "author": "Simon Farås (simon.faras@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^2.0.4",
+    "ejs": "^2.6.1",
+    "yargs": "^12.0.5"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jest-cli": "^23.6.0",
+    "prettier": "^1.15.3"
+  },
+  "prettier": {
+    "useTabs": true,
+    "singleQuote": true
+  }
+}
