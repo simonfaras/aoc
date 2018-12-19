@@ -1,18 +1,18 @@
+const { resolve, join } = require('path');
+const readInput = require('../src/utils/fs');
 const argv = require('yargs').argv;
-const Runner = require('../scripts/Runner');
-const run = new Runner();
 
-console.log(argv);
-const [year_raw, day_raw, star_raw] = argv._;
+const [year, day] = argv._[0].split('/');
 
-const year = year_raw + '';
-const day = day_raw < 10 ? '0' + day_raw : day_raw;
-const star = star_raw + '';
+const dir = resolve(process.cwd(), 'src', year, day);
+const script = require(join(dir, 'puzzle'));
+const input = readInput(join(dir));
 
-if (argv.c) {
-  // Create mode
-	run.create(year, day);
+if (argv.first) {
+	console.log(script.first(input));
+} else if (argv.second) {
+	console.log(script.second(input));
 } else {
-  // Run mode
-	run.start(year, day, star);
+	console.error('missing script parameter');
+	process.exitCode(1);
 }

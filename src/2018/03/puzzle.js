@@ -81,13 +81,11 @@ function second(input) {
 		intersects = false;
 		for (let l = 0; l < bounds.length; l++) {
 			if (i !== l && doesIntersect(current, bounds[l])) {
-				console.log('INTERSECTS', current.id, bounds[l].id);
 				intersects = true;
 				break;
 			}
 		}
 		if (!intersects) {
-			console.log('NO INTERSECT');
 			break;
 		}
 	}
