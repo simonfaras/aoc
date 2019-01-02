@@ -1,4 +1,4 @@
-const { nonUnique, flatten, count, max, keepOne } = require('.');
+const { nonUnique, flatten, count, max, keepOne, all } = require('.');
 
 describe('nonUnique', () => {
 	it('should return non unique values from 3 arrays', () => {

@@ -11,16 +11,15 @@ const assert = argv.assert;
 const isTest = assert !== undefined;
 
 if (isTest) {
-	console.log('is test');
-	const watcher = chokidar.watch(dir);
+	const watcher = chokidar.watch(process.cwd(), 'src');
 	watcher.on('change', handleOnChange);
 }
-
 function handleOnChange(path) {
-	if (path === scriptPath) {
-		run();
-	} else if (path.endsWith('.txt')) {
+	if (path.endsWith('.txt')) {
 		readInput();
+		run();
+	} else {
+		delete require.cache[path];
 		run();
 	}
 }
@@ -33,33 +32,37 @@ const loadInput = () => {
 };
 
 const run = () => {
-	console.log('\033c');
-	delete require.cache[scriptPath];
-	const script = require(scriptPath);
+	console.log('\x1Bc');
+	console.log(`${year}/${day} - ${argv.first ? '1' : '2'}`);
 
-	const scriptInput = !isTest ? input : testInput;
+	try {
+		delete require.cache[scriptPath];
+		const script = require(scriptPath);
 
-	let part;
-	if (argv.first) {
-		part = script.first;
-	} else if (argv.second) {
-		part = script.second;
-	} else {
-		process.exitCode(-1);
-	}
+		const scriptInput = !isTest ? input : testInput;
 
-	const result = part(scriptInput);
-	if (isTest) {
-		const success = result === Number(assert);
-		if (success) {
-			console.log('Correct! Your code might work!');
+		let part;
+		if (argv.first) {
+			part = script.first;
+		} else if (argv.second) {
+			part = script.second;
 		} else {
-			console.error('Error');
-			console.log('Expected', assert);
-			console.log('But received', result);
+			process.exitCode = -1;
 		}
-	} else {
-		console.log('result:', result);
+
+		const result = part(scriptInput);
+		if (isTest) {
+			const isNumber = !isNaN(Number(assert));
+			console.assert(
+				result === (isNumber ? Number(assert) : assert),
+				`expected ${assert} but received ${result}`
+			);
+			console.log('done');
+		} else {
+			console.log('result:', result);
+		}
+	} catch (e) {
+		console.error(e);
 	}
 };
 

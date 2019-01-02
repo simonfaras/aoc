@@ -11,7 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "chokidar": "^2.0.4",
+    "clear": "^0.1.0",
     "ejs": "^2.6.1",
+    "lodash.every": "^4.6.0",
     "lodash.intersection": "^4.4.0",
     "lodash.union": "^4.6.0",
     "yargs": "^12.0.5"

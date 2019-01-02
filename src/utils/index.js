@@ -1,12 +1,19 @@
-function* range(from, to) {
+function* _range(from, to) {
 	for (let i = from; i <= to; i++) {
 		yield i;
 	}
 }
 
+function range(from, to) {
+	return Array.from(_range(from, to));
+}
+
+function array(len) {
+	return range(0, len - 1);
+}
+
 function nonUnique(values) {
 	let result = [];
-	console.log('values', values);
 	const flattened = flatten(values);
 	while (flattened.length > 0) {
 		const n = flattened.pop();
@@ -16,6 +23,10 @@ function nonUnique(values) {
 	}
 
 	return result;
+}
+
+function unique(values) {
+	return values.reduce((acc, v) => (acc.includes(v) ? acc : [...acc, v]), []);
 }
 
 const flatten = values => values.reduce((acc, arr) => [...acc, ...arr], []);
@@ -30,6 +41,9 @@ const count = values =>
 	);
 
 const max = array => keepOne(array, (a, b) => a > b);
+const min = array => keepOne(array, (a, b) => a < b);
+
+const sum = values => values.reduce((sum, v) => sum + v, 0);
 
 const keepOne = (array, keepFirst) =>
 	array.reduce((theOne, item) =>
@@ -42,5 +56,9 @@ module.exports = {
 	flatten,
 	count,
 	max,
-	keepOne
+	min,
+	keepOne,
+	unique,
+	sum,
+	array
 };
