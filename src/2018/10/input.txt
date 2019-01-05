@@ -1,1057 +1,350 @@
-[1518-07-03 23:58] Guard #2437 begins shift
-[1518-09-23 00:54] falls asleep
-[1518-05-08 00:02] Guard #659 begins shift
-[1518-06-09 00:52] falls asleep
-[1518-07-27 00:59] wakes up
-[1518-03-04 00:14] falls asleep
-[1518-10-28 00:45] falls asleep
-[1518-11-14 00:02] Guard #3011 begins shift
-[1518-05-15 23:58] Guard #1447 begins shift
-[1518-07-29 00:07] falls asleep
-[1518-05-20 00:14] falls asleep
-[1518-10-18 00:50] wakes up
-[1518-09-24 00:02] Guard #1901 begins shift
-[1518-10-31 00:20] falls asleep
-[1518-08-23 23:49] Guard #3307 begins shift
-[1518-09-19 23:52] Guard #2083 begins shift
-[1518-02-25 00:51] wakes up
-[1518-02-28 00:34] wakes up
-[1518-04-29 00:54] wakes up
-[1518-07-10 23:59] Guard #1901 begins shift
-[1518-10-01 00:52] wakes up
-[1518-08-01 00:49] falls asleep
-[1518-03-14 00:12] falls asleep
-[1518-09-03 00:15] falls asleep
-[1518-07-19 00:06] falls asleep
-[1518-07-22 00:03] Guard #1307 begins shift
-[1518-03-22 00:15] wakes up
-[1518-07-08 00:02] falls asleep
-[1518-07-06 00:42] wakes up
-[1518-03-26 00:58] wakes up
-[1518-05-06 00:21] wakes up
-[1518-06-07 00:55] wakes up
-[1518-10-14 00:37] wakes up
-[1518-10-18 00:00] Guard #1009 begins shift
-[1518-08-05 00:01] Guard #3307 begins shift
-[1518-10-27 00:58] wakes up
-[1518-05-27 00:42] falls asleep
-[1518-10-05 00:51] wakes up
-[1518-06-04 00:39] falls asleep
-[1518-06-13 00:21] falls asleep
-[1518-09-03 00:01] Guard #991 begins shift
-[1518-05-20 00:55] wakes up
-[1518-04-19 00:58] wakes up
-[1518-10-24 00:02] Guard #991 begins shift
-[1518-10-31 00:00] Guard #2269 begins shift
-[1518-05-02 00:00] Guard #2437 begins shift
-[1518-08-15 00:59] wakes up
-[1518-09-12 00:33] wakes up
-[1518-08-08 23:56] Guard #3323 begins shift
-[1518-11-04 00:16] falls asleep
-[1518-07-14 00:57] wakes up
-[1518-06-11 00:19] falls asleep
-[1518-04-06 23:58] Guard #1307 begins shift
-[1518-05-04 00:33] wakes up
-[1518-06-30 00:19] falls asleep
-[1518-09-14 00:00] Guard #3251 begins shift
-[1518-05-13 00:37] wakes up
-[1518-08-12 23:50] Guard #3307 begins shift
-[1518-07-14 00:18] wakes up
-[1518-05-26 00:20] falls asleep
-[1518-07-17 00:48] wakes up
-[1518-06-15 00:58] wakes up
-[1518-07-22 00:29] wakes up
-[1518-10-20 00:39] wakes up
-[1518-07-12 00:27] falls asleep
-[1518-03-17 00:14] falls asleep
-[1518-04-28 00:33] falls asleep
-[1518-06-12 00:55] falls asleep
-[1518-03-08 00:39] falls asleep
-[1518-09-05 00:28] wakes up
-[1518-05-23 00:49] falls asleep
-[1518-07-07 00:02] Guard #1447 begins shift
-[1518-11-18 00:56] falls asleep
-[1518-09-03 00:40] wakes up
-[1518-11-10 00:54] falls asleep
-[1518-02-23 00:00] Guard #3323 begins shift
-[1518-07-01 00:46] wakes up
-[1518-04-24 00:44] wakes up
-[1518-09-27 00:14] falls asleep
-[1518-09-26 00:04] Guard #2083 begins shift
-[1518-05-08 00:31] falls asleep
-[1518-05-03 00:19] falls asleep
-[1518-07-15 00:01] Guard #991 begins shift
-[1518-07-09 00:00] Guard #2437 begins shift
-[1518-10-10 00:20] falls asleep
-[1518-05-06 00:55] wakes up
-[1518-06-13 00:54] falls asleep
-[1518-11-06 00:26] falls asleep
-[1518-07-16 00:51] wakes up
-[1518-08-28 00:10] falls asleep
-[1518-06-07 00:35] falls asleep
-[1518-07-13 00:41] wakes up
-[1518-11-01 00:38] falls asleep
-[1518-07-15 00:14] falls asleep
-[1518-08-18 00:44] falls asleep
-[1518-09-21 23:57] Guard #991 begins shift
-[1518-05-30 00:50] wakes up
-[1518-09-30 00:47] wakes up
-[1518-09-07 00:05] falls asleep
-[1518-06-08 00:35] falls asleep
-[1518-03-12 23:53] Guard #1901 begins shift
-[1518-05-05 00:55] falls asleep
-[1518-07-21 00:48] falls asleep
-[1518-09-11 00:44] falls asleep
-[1518-10-24 23:53] Guard #1307 begins shift
-[1518-11-19 00:58] wakes up
-[1518-04-03 00:57] wakes up
-[1518-04-06 00:54] wakes up
-[1518-10-09 23:57] Guard #1447 begins shift
-[1518-09-19 00:54] wakes up
-[1518-11-10 00:58] wakes up
-[1518-08-26 00:42] wakes up
-[1518-09-11 00:53] wakes up
-[1518-03-18 23:56] Guard #2083 begins shift
-[1518-08-01 00:57] wakes up
-[1518-07-12 00:01] Guard #1447 begins shift
-[1518-10-12 00:34] wakes up
-[1518-05-23 00:59] wakes up
-[1518-04-16 00:51] wakes up
-[1518-03-11 00:04] Guard #1901 begins shift
-[1518-08-17 00:40] falls asleep
-[1518-10-21 00:17] falls asleep
-[1518-07-09 00:15] falls asleep
-[1518-08-01 00:01] falls asleep
-[1518-03-01 00:45] wakes up
-[1518-05-26 00:09] falls asleep
-[1518-06-03 00:04] Guard #3307 begins shift
-[1518-10-27 00:02] Guard #3307 begins shift
-[1518-10-13 00:01] Guard #991 begins shift
-[1518-05-04 00:26] falls asleep
-[1518-09-10 00:55] wakes up
-[1518-07-21 00:25] falls asleep
-[1518-07-02 00:45] falls asleep
-[1518-04-03 00:17] falls asleep
-[1518-10-14 00:32] falls asleep
-[1518-07-28 00:03] Guard #127 begins shift
-[1518-11-11 00:39] wakes up
-[1518-07-16 00:00] Guard #659 begins shift
-[1518-06-17 00:01] Guard #2269 begins shift
-[1518-05-17 23:53] Guard #3307 begins shift
-[1518-07-31 23:49] Guard #1831 begins shift
-[1518-03-30 23:59] Guard #467 begins shift
-[1518-10-23 00:40] wakes up
-[1518-06-25 00:35] wakes up
-[1518-04-27 00:44] falls asleep
-[1518-08-10 00:22] falls asleep
-[1518-05-29 00:50] wakes up
-[1518-10-09 00:11] falls asleep
-[1518-02-23 23:59] Guard #1303 begins shift
-[1518-06-12 00:58] wakes up
-[1518-10-12 00:28] falls asleep
-[1518-03-07 00:55] wakes up
-[1518-10-19 00:50] wakes up
-[1518-06-13 00:01] Guard #1307 begins shift
-[1518-10-16 00:52] wakes up
-[1518-04-26 00:23] falls asleep
-[1518-08-08 00:04] falls asleep
-[1518-09-14 00:42] falls asleep
-[1518-10-12 00:13] falls asleep
-[1518-09-20 00:20] wakes up
-[1518-09-14 00:57] falls asleep
-[1518-07-25 00:02] Guard #2437 begins shift
-[1518-07-08 00:56] wakes up
-[1518-09-02 00:04] Guard #3307 begins shift
-[1518-09-18 00:06] falls asleep
-[1518-10-22 00:01] Guard #3011 begins shift
-[1518-04-25 00:42] falls asleep
-[1518-09-02 00:57] falls asleep
-[1518-02-21 23:56] Guard #2239 begins shift
-[1518-05-10 00:29] falls asleep
-[1518-04-04 23:56] Guard #127 begins shift
-[1518-09-28 00:59] wakes up
-[1518-10-17 00:12] falls asleep
-[1518-04-24 00:01] Guard #1901 begins shift
-[1518-09-08 00:16] falls asleep
-[1518-11-03 00:47] wakes up
-[1518-11-04 00:55] falls asleep
-[1518-03-03 00:40] falls asleep
-[1518-10-08 00:57] wakes up
-[1518-09-14 00:32] falls asleep
-[1518-06-25 00:58] wakes up
-[1518-09-15 00:33] wakes up
-[1518-06-24 00:04] falls asleep
-[1518-03-15 00:36] falls asleep
-[1518-06-24 23:52] Guard #1447 begins shift
-[1518-06-11 00:36] falls asleep
-[1518-10-21 00:58] wakes up
-[1518-06-17 00:29] wakes up
-[1518-08-21 23:59] Guard #467 begins shift
-[1518-05-16 00:40] wakes up
-[1518-10-07 00:24] falls asleep
-[1518-11-04 00:00] Guard #2239 begins shift
-[1518-08-30 00:03] Guard #127 begins shift
-[1518-05-26 00:04] Guard #2239 begins shift
-[1518-05-08 00:52] wakes up
-[1518-07-31 00:04] Guard #991 begins shift
-[1518-10-11 00:00] Guard #353 begins shift
-[1518-09-29 00:38] falls asleep
-[1518-04-05 00:48] wakes up
-[1518-09-19 00:52] falls asleep
-[1518-07-18 00:02] Guard #3323 begins shift
-[1518-08-11 23:57] Guard #3011 begins shift
-[1518-08-07 23:46] Guard #1307 begins shift
-[1518-07-20 23:58] Guard #2083 begins shift
-[1518-06-25 00:12] wakes up
-[1518-06-12 00:17] falls asleep
-[1518-07-23 23:56] Guard #467 begins shift
-[1518-03-09 00:17] falls asleep
-[1518-07-20 00:35] falls asleep
-[1518-05-25 00:22] wakes up
-[1518-09-27 00:52] falls asleep
-[1518-09-21 00:54] falls asleep
-[1518-09-10 00:42] falls asleep
-[1518-05-02 00:19] falls asleep
-[1518-10-09 00:43] wakes up
-[1518-07-11 00:46] wakes up
-[1518-06-16 00:51] wakes up
-[1518-10-28 00:00] Guard #1303 begins shift
-[1518-06-30 00:39] wakes up
-[1518-10-14 00:48] wakes up
-[1518-11-06 00:37] wakes up
-[1518-03-17 00:00] Guard #1831 begins shift
-[1518-04-04 00:26] falls asleep
-[1518-06-08 00:18] wakes up
-[1518-04-23 00:25] falls asleep
-[1518-03-25 00:52] wakes up
-[1518-09-19 00:01] Guard #659 begins shift
-[1518-11-09 00:48] wakes up
-[1518-09-17 23:59] Guard #1979 begins shift
-[1518-06-01 23:50] Guard #2617 begins shift
-[1518-07-22 00:46] falls asleep
-[1518-08-06 23:58] Guard #1901 begins shift
-[1518-11-23 00:56] wakes up
-[1518-05-10 00:37] wakes up
-[1518-04-29 00:35] falls asleep
-[1518-11-13 00:02] Guard #1307 begins shift
-[1518-07-29 00:01] Guard #3323 begins shift
-[1518-10-30 00:02] Guard #3251 begins shift
-[1518-10-25 00:34] wakes up
-[1518-07-08 00:27] falls asleep
-[1518-10-16 00:30] falls asleep
-[1518-07-03 00:03] Guard #1307 begins shift
-[1518-10-16 23:56] Guard #2437 begins shift
-[1518-02-22 00:44] falls asleep
-[1518-07-25 23:59] Guard #1901 begins shift
-[1518-03-15 00:00] Guard #2617 begins shift
-[1518-07-07 00:58] wakes up
-[1518-02-24 00:59] wakes up
-[1518-09-06 23:48] Guard #3251 begins shift
-[1518-10-07 00:02] Guard #1979 begins shift
-[1518-06-05 00:10] falls asleep
-[1518-05-08 23:52] Guard #2269 begins shift
-[1518-06-19 23:57] Guard #3307 begins shift
-[1518-07-18 00:51] falls asleep
-[1518-02-25 00:10] falls asleep
-[1518-06-02 00:41] wakes up
-[1518-08-27 00:44] wakes up
-[1518-07-26 00:08] falls asleep
-[1518-10-15 00:10] falls asleep
-[1518-04-13 00:17] wakes up
-[1518-09-29 23:59] Guard #2437 begins shift
-[1518-11-05 00:37] falls asleep
-[1518-09-04 00:03] falls asleep
-[1518-09-26 23:59] Guard #523 begins shift
-[1518-11-09 00:30] falls asleep
-[1518-10-28 00:41] wakes up
-[1518-03-14 00:53] falls asleep
-[1518-05-29 00:08] falls asleep
-[1518-04-16 00:32] falls asleep
-[1518-11-21 00:16] falls asleep
-[1518-11-15 00:01] falls asleep
-[1518-08-23 00:52] falls asleep
-[1518-03-04 23:59] Guard #2269 begins shift
-[1518-05-16 00:19] falls asleep
-[1518-07-31 00:53] wakes up
-[1518-05-05 00:48] wakes up
-[1518-09-27 00:46] wakes up
-[1518-05-23 00:44] falls asleep
-[1518-09-11 00:03] Guard #2617 begins shift
-[1518-05-10 00:02] falls asleep
-[1518-03-30 00:37] wakes up
-[1518-04-24 00:58] wakes up
-[1518-06-20 00:57] wakes up
-[1518-11-02 00:34] wakes up
-[1518-04-21 00:55] wakes up
-[1518-08-30 00:34] falls asleep
-[1518-10-09 00:20] wakes up
-[1518-03-02 00:19] wakes up
-[1518-08-18 00:29] falls asleep
-[1518-11-16 00:42] falls asleep
-[1518-06-16 00:00] Guard #523 begins shift
-[1518-05-18 00:44] falls asleep
-[1518-09-05 23:59] Guard #2083 begins shift
-[1518-09-19 00:46] falls asleep
-[1518-11-16 00:00] Guard #1303 begins shift
-[1518-04-27 00:33] wakes up
-[1518-07-30 00:04] Guard #2437 begins shift
-[1518-08-24 00:54] wakes up
-[1518-03-10 00:43] falls asleep
-[1518-10-06 00:03] Guard #1979 begins shift
-[1518-08-10 00:02] Guard #2437 begins shift
-[1518-09-10 00:07] falls asleep
-[1518-07-31 00:29] falls asleep
-[1518-05-19 00:31] wakes up
-[1518-02-28 00:00] Guard #991 begins shift
-[1518-03-14 00:50] wakes up
-[1518-09-20 23:46] Guard #1901 begins shift
-[1518-06-26 00:17] falls asleep
-[1518-07-04 00:49] wakes up
-[1518-07-04 23:58] Guard #2437 begins shift
-[1518-04-11 00:55] wakes up
-[1518-08-05 00:49] wakes up
-[1518-11-01 00:49] falls asleep
-[1518-04-25 23:59] Guard #2437 begins shift
-[1518-04-28 00:27] falls asleep
-[1518-05-27 00:21] falls asleep
-[1518-03-14 00:58] wakes up
-[1518-07-04 00:39] falls asleep
-[1518-10-22 00:53] wakes up
-[1518-05-19 00:57] wakes up
-[1518-11-12 00:57] wakes up
-[1518-07-21 00:58] wakes up
-[1518-04-28 00:42] wakes up
-[1518-08-04 00:15] falls asleep
-[1518-10-24 00:27] falls asleep
-[1518-09-18 00:53] falls asleep
-[1518-03-19 00:44] falls asleep
-[1518-11-11 00:54] wakes up
-[1518-03-10 00:57] wakes up
-[1518-08-01 00:20] wakes up
-[1518-03-07 00:08] falls asleep
-[1518-03-09 00:53] wakes up
-[1518-06-13 00:22] wakes up
-[1518-06-29 00:54] wakes up
-[1518-09-21 00:05] falls asleep
-[1518-08-26 00:14] falls asleep
-[1518-04-23 00:54] falls asleep
-[1518-07-22 00:58] wakes up
-[1518-07-03 00:46] falls asleep
-[1518-04-17 00:29] wakes up
-[1518-06-22 00:34] falls asleep
-[1518-03-13 00:01] falls asleep
-[1518-08-11 00:58] wakes up
-[1518-09-01 00:25] falls asleep
-[1518-09-01 00:53] wakes up
-[1518-06-12 00:02] Guard #3307 begins shift
-[1518-05-01 00:56] wakes up
-[1518-04-11 00:04] Guard #127 begins shift
-[1518-05-29 23:59] Guard #2083 begins shift
-[1518-03-18 00:03] falls asleep
-[1518-10-05 00:04] Guard #991 begins shift
-[1518-06-14 23:57] Guard #659 begins shift
-[1518-10-28 00:15] falls asleep
-[1518-03-10 00:02] Guard #1307 begins shift
-[1518-04-15 00:21] falls asleep
-[1518-08-31 23:56] Guard #1447 begins shift
-[1518-06-22 00:57] wakes up
-[1518-08-24 00:59] wakes up
-[1518-09-08 00:46] falls asleep
-[1518-08-24 00:05] falls asleep
-[1518-09-09 23:56] Guard #1447 begins shift
-[1518-10-02 00:59] wakes up
-[1518-11-17 00:33] falls asleep
-[1518-04-19 00:34] wakes up
-[1518-04-30 00:45] falls asleep
-[1518-08-02 00:27] wakes up
-[1518-11-05 00:47] wakes up
-[1518-05-24 00:43] wakes up
-[1518-06-25 00:25] wakes up
-[1518-10-09 00:23] falls asleep
-[1518-09-16 00:51] wakes up
-[1518-06-29 00:57] falls asleep
-[1518-11-12 00:03] Guard #3011 begins shift
-[1518-07-14 00:00] Guard #3251 begins shift
-[1518-06-20 00:51] falls asleep
-[1518-11-04 00:32] wakes up
-[1518-05-19 00:00] Guard #3323 begins shift
-[1518-04-19 00:15] falls asleep
-[1518-07-21 00:44] wakes up
-[1518-05-30 00:23] falls asleep
-[1518-05-15 00:00] Guard #353 begins shift
-[1518-08-05 23:58] Guard #2269 begins shift
-[1518-09-15 00:52] wakes up
-[1518-07-01 00:18] falls asleep
-[1518-05-18 00:38] wakes up
-[1518-03-02 23:58] Guard #3307 begins shift
-[1518-09-23 00:58] wakes up
-[1518-05-20 00:35] falls asleep
-[1518-05-05 00:30] falls asleep
-[1518-09-23 00:44] wakes up
-[1518-08-25 00:03] Guard #3011 begins shift
-[1518-04-22 00:00] falls asleep
-[1518-05-10 00:24] wakes up
-[1518-06-27 00:43] wakes up
-[1518-03-05 00:45] wakes up
-[1518-11-19 00:18] falls asleep
-[1518-09-24 00:08] falls asleep
-[1518-06-29 00:10] falls asleep
-[1518-04-11 00:29] wakes up
-[1518-06-23 23:52] Guard #1303 begins shift
-[1518-04-20 00:13] wakes up
-[1518-06-03 00:40] falls asleep
-[1518-03-23 00:59] wakes up
-[1518-05-03 00:04] Guard #2437 begins shift
-[1518-11-11 00:19] falls asleep
-[1518-09-21 00:50] wakes up
-[1518-07-12 00:47] wakes up
-[1518-06-01 00:37] wakes up
-[1518-06-03 00:58] wakes up
-[1518-07-18 00:47] wakes up
-[1518-07-02 00:39] wakes up
-[1518-11-06 00:02] Guard #3323 begins shift
-[1518-03-02 00:02] falls asleep
-[1518-07-03 00:53] wakes up
-[1518-06-06 00:38] wakes up
-[1518-04-27 23:56] Guard #2437 begins shift
-[1518-06-28 00:23] falls asleep
-[1518-11-06 00:42] falls asleep
-[1518-03-27 00:30] falls asleep
-[1518-11-11 00:31] falls asleep
-[1518-04-20 00:24] falls asleep
-[1518-06-26 00:49] wakes up
-[1518-08-01 00:54] falls asleep
-[1518-05-03 00:40] wakes up
-[1518-08-23 00:57] wakes up
-[1518-10-07 00:44] wakes up
-[1518-09-20 00:04] falls asleep
-[1518-09-04 00:48] wakes up
-[1518-07-18 00:59] wakes up
-[1518-06-18 00:56] wakes up
-[1518-11-01 00:46] wakes up
-[1518-10-28 00:28] falls asleep
-[1518-05-04 00:01] Guard #2239 begins shift
-[1518-02-24 00:27] falls asleep
-[1518-04-30 00:02] Guard #127 begins shift
-[1518-09-22 00:45] falls asleep
-[1518-06-15 00:44] falls asleep
-[1518-08-16 00:45] falls asleep
-[1518-07-02 00:50] wakes up
-[1518-05-31 00:24] wakes up
-[1518-02-27 00:24] falls asleep
-[1518-07-30 00:20] falls asleep
-[1518-05-16 00:46] falls asleep
-[1518-05-25 00:00] falls asleep
-[1518-11-13 00:23] falls asleep
-[1518-05-22 00:00] Guard #467 begins shift
-[1518-04-08 23:50] Guard #1901 begins shift
-[1518-05-06 00:42] falls asleep
-[1518-03-25 00:43] falls asleep
-[1518-04-07 00:56] wakes up
-[1518-11-19 00:00] Guard #991 begins shift
-[1518-05-20 23:51] Guard #1901 begins shift
-[1518-03-10 00:51] wakes up
-[1518-10-12 00:38] falls asleep
-[1518-06-26 00:02] Guard #3011 begins shift
-[1518-09-11 00:17] falls asleep
-[1518-05-18 00:55] wakes up
-[1518-10-02 00:08] falls asleep
-[1518-11-05 00:00] Guard #3251 begins shift
-[1518-05-09 00:46] wakes up
-[1518-06-26 23:59] Guard #1009 begins shift
-[1518-06-27 00:14] falls asleep
-[1518-06-29 00:23] wakes up
-[1518-04-13 23:58] Guard #1307 begins shift
-[1518-09-13 00:00] Guard #467 begins shift
-[1518-08-04 00:35] falls asleep
-[1518-04-08 00:54] wakes up
-[1518-05-24 23:52] Guard #523 begins shift
-[1518-02-24 00:35] wakes up
-[1518-08-08 00:51] wakes up
-[1518-05-28 00:59] wakes up
-[1518-11-14 00:18] falls asleep
-[1518-04-09 00:32] wakes up
-[1518-05-17 00:46] wakes up
-[1518-11-03 00:28] falls asleep
-[1518-09-27 00:57] wakes up
-[1518-08-24 00:16] wakes up
-[1518-03-20 00:01] falls asleep
-[1518-06-16 00:42] wakes up
-[1518-08-14 00:22] falls asleep
-[1518-08-18 00:53] wakes up
-[1518-04-27 00:01] Guard #2437 begins shift
-[1518-03-29 00:00] Guard #3251 begins shift
-[1518-08-02 00:08] falls asleep
-[1518-06-21 00:26] falls asleep
-[1518-03-22 00:12] falls asleep
-[1518-11-10 23:58] Guard #1447 begins shift
-[1518-03-29 23:59] Guard #2617 begins shift
-[1518-06-09 00:18] falls asleep
-[1518-04-25 00:59] wakes up
-[1518-03-29 00:32] falls asleep
-[1518-03-17 00:25] wakes up
-[1518-04-10 00:07] falls asleep
-[1518-08-03 00:57] wakes up
-[1518-08-12 00:48] wakes up
-[1518-07-29 00:56] wakes up
-[1518-05-27 00:11] falls asleep
-[1518-06-21 00:22] wakes up
-[1518-04-28 00:30] wakes up
-[1518-06-08 00:39] wakes up
-[1518-11-01 00:56] wakes up
-[1518-08-18 00:36] wakes up
-[1518-08-17 00:51] wakes up
-[1518-06-22 00:01] Guard #523 begins shift
-[1518-04-13 00:13] falls asleep
-[1518-07-28 00:53] falls asleep
-[1518-05-14 00:01] Guard #1831 begins shift
-[1518-10-02 00:34] wakes up
-[1518-05-19 00:25] falls asleep
-[1518-07-14 00:36] falls asleep
-[1518-04-17 23:46] Guard #2269 begins shift
-[1518-09-20 00:33] falls asleep
-[1518-04-22 00:41] wakes up
-[1518-03-17 23:53] Guard #2083 begins shift
-[1518-08-13 00:03] falls asleep
-[1518-03-10 00:23] falls asleep
-[1518-03-30 00:08] falls asleep
-[1518-08-31 00:42] wakes up
-[1518-11-18 00:00] Guard #3307 begins shift
-[1518-03-14 00:49] falls asleep
-[1518-08-17 23:58] Guard #2083 begins shift
-[1518-11-14 23:48] Guard #1307 begins shift
-[1518-05-18 00:12] wakes up
-[1518-07-13 00:18] falls asleep
-[1518-08-23 00:04] Guard #3307 begins shift
-[1518-08-20 00:32] falls asleep
-[1518-06-14 00:16] falls asleep
-[1518-09-21 00:56] wakes up
-[1518-06-22 23:50] Guard #2437 begins shift
-[1518-09-23 00:39] falls asleep
-[1518-10-04 00:08] falls asleep
-[1518-04-17 00:27] falls asleep
-[1518-09-14 00:52] wakes up
-[1518-06-13 00:47] wakes up
-[1518-08-17 00:04] Guard #127 begins shift
-[1518-07-22 00:24] falls asleep
-[1518-09-09 00:57] wakes up
-[1518-07-13 00:01] Guard #2083 begins shift
-[1518-03-27 00:45] wakes up
-[1518-04-04 00:16] falls asleep
-[1518-11-11 00:53] falls asleep
-[1518-06-30 23:56] Guard #523 begins shift
-[1518-04-18 00:02] falls asleep
-[1518-10-25 00:01] falls asleep
-[1518-09-14 00:39] wakes up
-[1518-04-09 00:02] falls asleep
-[1518-03-10 00:54] falls asleep
-[1518-10-23 00:13] falls asleep
-[1518-04-22 23:57] Guard #1307 begins shift
-[1518-06-17 00:12] falls asleep
-[1518-04-15 00:47] wakes up
-[1518-09-05 00:50] wakes up
-[1518-10-31 00:45] wakes up
-[1518-06-21 00:58] wakes up
-[1518-03-16 00:51] wakes up
-[1518-07-25 00:43] falls asleep
-[1518-08-29 00:51] falls asleep
-[1518-06-28 23:58] Guard #1979 begins shift
-[1518-08-16 00:53] wakes up
-[1518-09-12 00:20] falls asleep
-[1518-06-29 00:48] falls asleep
-[1518-09-19 00:48] wakes up
-[1518-09-15 00:24] falls asleep
-[1518-03-01 00:26] wakes up
-[1518-08-24 00:57] falls asleep
-[1518-03-01 00:21] wakes up
-[1518-04-07 00:25] falls asleep
-[1518-11-23 00:49] falls asleep
-[1518-07-16 23:59] Guard #2083 begins shift
-[1518-07-08 00:24] wakes up
-[1518-05-13 00:19] falls asleep
-[1518-10-20 00:47] falls asleep
-[1518-05-27 00:26] wakes up
-[1518-09-03 23:46] Guard #1901 begins shift
-[1518-05-24 00:20] falls asleep
-[1518-03-06 00:17] falls asleep
-[1518-10-12 00:51] wakes up
-[1518-03-20 00:31] falls asleep
-[1518-08-02 00:48] wakes up
-[1518-05-12 23:58] Guard #523 begins shift
-[1518-09-17 00:06] falls asleep
-[1518-07-02 00:33] falls asleep
-[1518-06-06 00:16] falls asleep
-[1518-02-28 23:57] Guard #2239 begins shift
-[1518-04-13 00:22] falls asleep
-[1518-08-31 00:03] falls asleep
-[1518-03-06 00:00] Guard #1979 begins shift
-[1518-05-21 00:41] falls asleep
-[1518-11-07 00:12] falls asleep
-[1518-07-25 00:17] falls asleep
-[1518-06-09 00:53] wakes up
-[1518-10-30 00:06] falls asleep
-[1518-06-25 00:44] falls asleep
-[1518-10-22 23:56] Guard #2239 begins shift
-[1518-08-21 00:54] wakes up
-[1518-04-15 23:58] Guard #659 begins shift
-[1518-08-29 00:53] wakes up
-[1518-09-29 00:01] Guard #1901 begins shift
-[1518-03-18 00:56] wakes up
-[1518-06-11 00:31] wakes up
-[1518-11-20 23:59] Guard #1831 begins shift
-[1518-04-16 23:58] Guard #1447 begins shift
-[1518-02-28 00:15] falls asleep
-[1518-06-04 00:54] wakes up
-[1518-04-18 00:53] falls asleep
-[1518-11-16 00:59] wakes up
-[1518-04-08 00:03] Guard #2617 begins shift
-[1518-06-17 23:56] Guard #1447 begins shift
-[1518-05-06 00:04] Guard #1979 begins shift
-[1518-08-13 00:53] wakes up
-[1518-04-03 23:57] Guard #1447 begins shift
-[1518-10-12 00:00] Guard #3323 begins shift
-[1518-11-09 23:48] Guard #2269 begins shift
-[1518-07-09 00:51] wakes up
-[1518-11-02 00:27] falls asleep
-[1518-03-13 00:22] wakes up
-[1518-09-05 00:45] falls asleep
-[1518-11-17 00:00] Guard #2239 begins shift
-[1518-10-14 00:44] falls asleep
-[1518-09-25 00:06] falls asleep
-[1518-05-31 23:59] Guard #2083 begins shift
-[1518-05-10 23:57] Guard #127 begins shift
-[1518-07-31 00:58] wakes up
-[1518-03-23 00:04] Guard #2269 begins shift
-[1518-11-21 23:56] Guard #1901 begins shift
-[1518-08-27 00:17] falls asleep
-[1518-08-07 00:48] wakes up
-[1518-05-23 00:45] wakes up
-[1518-06-09 00:49] wakes up
-[1518-05-02 00:53] falls asleep
-[1518-03-05 00:37] falls asleep
-[1518-06-18 00:21] falls asleep
-[1518-05-31 00:45] wakes up
-[1518-09-06 00:38] falls asleep
-[1518-11-16 00:52] wakes up
-[1518-03-16 00:03] Guard #991 begins shift
-[1518-05-12 00:32] falls asleep
-[1518-10-07 23:58] Guard #2239 begins shift
-[1518-07-03 00:26] falls asleep
-[1518-07-28 00:48] wakes up
-[1518-05-28 00:14] falls asleep
-[1518-10-31 00:42] falls asleep
-[1518-09-11 23:59] Guard #991 begins shift
-[1518-07-17 00:20] falls asleep
-[1518-03-19 00:53] wakes up
-[1518-04-03 00:00] Guard #991 begins shift
-[1518-10-01 00:04] falls asleep
-[1518-07-03 00:31] wakes up
-[1518-02-25 00:40] falls asleep
-[1518-03-04 00:04] Guard #1307 begins shift
-[1518-09-18 00:08] wakes up
-[1518-11-06 23:58] Guard #3011 begins shift
-[1518-08-24 00:46] falls asleep
-[1518-06-13 00:39] falls asleep
-[1518-05-23 23:58] Guard #3323 begins shift
-[1518-05-16 23:57] Guard #3011 begins shift
-[1518-08-03 00:24] falls asleep
-[1518-05-03 00:58] wakes up
-[1518-10-06 00:53] wakes up
-[1518-11-01 23:59] Guard #2239 begins shift
-[1518-06-02 00:05] falls asleep
-[1518-04-28 23:58] Guard #127 begins shift
-[1518-07-27 00:02] Guard #1979 begins shift
-[1518-04-19 00:53] falls asleep
-[1518-08-04 00:00] Guard #1831 begins shift
-[1518-04-05 00:36] falls asleep
-[1518-03-08 00:49] wakes up
-[1518-03-26 00:51] falls asleep
-[1518-05-18 00:18] falls asleep
-[1518-04-24 23:59] Guard #3251 begins shift
-[1518-11-09 00:14] falls asleep
-[1518-08-25 00:27] falls asleep
-[1518-10-29 00:04] Guard #1979 begins shift
-[1518-02-26 00:22] falls asleep
-[1518-07-07 23:46] Guard #1307 begins shift
-[1518-09-30 23:52] Guard #1901 begins shift
-[1518-03-31 23:56] Guard #467 begins shift
-[1518-08-06 00:46] falls asleep
-[1518-11-19 23:59] Guard #467 begins shift
-[1518-04-15 00:03] Guard #991 begins shift
-[1518-04-19 23:46] Guard #523 begins shift
-[1518-07-10 00:30] falls asleep
-[1518-07-31 00:43] falls asleep
-[1518-09-07 00:51] wakes up
-[1518-06-18 23:46] Guard #127 begins shift
-[1518-04-08 00:18] falls asleep
-[1518-04-02 00:58] wakes up
-[1518-05-19 00:41] falls asleep
-[1518-10-18 00:37] falls asleep
-[1518-10-22 00:16] falls asleep
-[1518-06-26 00:36] falls asleep
-[1518-03-20 00:21] wakes up
-[1518-03-01 23:48] Guard #3251 begins shift
-[1518-09-08 00:55] wakes up
-[1518-10-08 00:44] falls asleep
-[1518-06-08 00:01] falls asleep
-[1518-10-05 00:24] falls asleep
-[1518-02-23 00:43] falls asleep
-[1518-03-23 00:37] falls asleep
-[1518-07-28 00:58] wakes up
-[1518-05-17 00:36] falls asleep
-[1518-08-11 00:06] falls asleep
-[1518-04-13 00:37] wakes up
-[1518-03-11 23:59] Guard #353 begins shift
-[1518-08-23 00:24] falls asleep
-[1518-04-19 00:50] wakes up
-[1518-06-05 00:54] wakes up
-[1518-07-31 00:57] falls asleep
-[1518-07-25 00:58] wakes up
-[1518-06-12 00:26] wakes up
-[1518-08-19 23:57] Guard #1009 begins shift
-[1518-08-15 00:51] wakes up
-[1518-02-27 00:01] Guard #1979 begins shift
-[1518-09-16 00:31] falls asleep
-[1518-06-20 23:46] Guard #991 begins shift
-[1518-09-14 00:59] wakes up
-[1518-04-21 23:48] Guard #1307 begins shift
-[1518-09-16 23:58] Guard #1979 begins shift
-[1518-03-11 00:59] wakes up
-[1518-04-13 00:02] Guard #3307 begins shift
-[1518-09-20 00:59] wakes up
-[1518-02-25 23:57] Guard #1901 begins shift
-[1518-10-02 00:00] Guard #1009 begins shift
-[1518-08-16 00:00] Guard #991 begins shift
-[1518-09-17 00:27] wakes up
-[1518-06-09 00:58] wakes up
-[1518-04-25 00:09] falls asleep
-[1518-03-17 00:32] falls asleep
-[1518-07-15 00:27] wakes up
-[1518-09-10 00:32] wakes up
-[1518-05-02 00:58] wakes up
-[1518-09-25 00:44] wakes up
-[1518-06-01 00:36] falls asleep
-[1518-07-16 00:40] falls asleep
-[1518-11-18 00:59] wakes up
-[1518-11-17 00:09] falls asleep
-[1518-05-01 00:30] falls asleep
-[1518-08-10 00:53] wakes up
-[1518-11-08 00:58] wakes up
-[1518-05-31 00:00] falls asleep
-[1518-03-15 00:42] wakes up
-[1518-07-05 00:58] wakes up
-[1518-03-27 00:04] Guard #2239 begins shift
-[1518-10-06 00:16] falls asleep
-[1518-07-10 00:54] wakes up
-[1518-04-12 00:38] wakes up
-[1518-07-05 00:23] falls asleep
-[1518-11-19 00:37] wakes up
-[1518-06-30 00:00] Guard #3011 begins shift
-[1518-10-27 00:43] falls asleep
-[1518-04-01 23:56] Guard #991 begins shift
-[1518-04-04 00:28] wakes up
-[1518-05-22 23:59] Guard #3307 begins shift
-[1518-05-06 00:06] falls asleep
-[1518-04-25 00:35] wakes up
-[1518-04-24 00:07] falls asleep
-[1518-07-05 00:35] wakes up
-[1518-10-26 00:02] Guard #2753 begins shift
-[1518-05-31 00:34] falls asleep
-[1518-10-17 00:55] wakes up
-[1518-04-19 00:49] falls asleep
-[1518-03-13 23:57] Guard #2239 begins shift
-[1518-11-21 00:46] wakes up
-[1518-03-22 00:04] Guard #3307 begins shift
-[1518-05-09 23:50] Guard #991 begins shift
-[1518-03-03 00:59] wakes up
-[1518-03-02 00:59] wakes up
-[1518-04-20 00:48] wakes up
-[1518-05-18 00:01] falls asleep
-[1518-08-02 00:55] falls asleep
-[1518-08-30 00:57] wakes up
-[1518-05-27 00:52] wakes up
-[1518-06-07 23:46] Guard #127 begins shift
-[1518-08-02 00:57] wakes up
-[1518-10-10 00:55] wakes up
-[1518-02-24 00:53] falls asleep
-[1518-04-11 23:56] Guard #1979 begins shift
-[1518-10-19 00:00] Guard #1979 begins shift
-[1518-09-11 00:29] wakes up
-[1518-05-27 00:01] Guard #1831 begins shift
-[1518-06-19 00:40] falls asleep
-[1518-05-28 00:00] Guard #3011 begins shift
-[1518-10-15 00:01] Guard #3011 begins shift
-[1518-06-07 00:00] Guard #2239 begins shift
-[1518-09-29 00:45] wakes up
-[1518-06-29 00:58] wakes up
-[1518-10-30 00:45] wakes up
-[1518-06-10 00:10] falls asleep
-[1518-05-09 00:32] wakes up
-[1518-05-28 23:57] Guard #3011 begins shift
-[1518-05-09 00:35] falls asleep
-[1518-10-09 00:01] Guard #1979 begins shift
-[1518-06-24 00:36] wakes up
-[1518-07-22 23:59] Guard #3323 begins shift
-[1518-11-06 00:46] wakes up
-[1518-03-16 00:16] falls asleep
-[1518-05-14 00:41] falls asleep
-[1518-07-06 00:00] Guard #2239 begins shift
-[1518-08-17 00:56] falls asleep
-[1518-07-02 00:02] Guard #1009 begins shift
-[1518-03-17 00:50] wakes up
-[1518-09-15 00:04] Guard #1009 begins shift
-[1518-06-14 00:03] Guard #3323 begins shift
-[1518-05-16 00:24] wakes up
-[1518-10-25 00:57] wakes up
-[1518-04-10 00:04] Guard #1303 begins shift
-[1518-05-05 00:56] wakes up
-[1518-06-03 00:46] wakes up
-[1518-05-05 00:02] Guard #1901 begins shift
-[1518-05-20 00:29] wakes up
-[1518-10-21 00:00] Guard #3251 begins shift
-[1518-11-17 00:19] wakes up
-[1518-02-27 00:48] wakes up
-[1518-11-07 23:57] Guard #659 begins shift
-[1518-06-11 00:01] Guard #2239 begins shift
-[1518-06-28 00:41] wakes up
-[1518-04-30 00:57] wakes up
-[1518-11-10 00:40] wakes up
-[1518-11-22 00:38] falls asleep
-[1518-04-12 00:31] falls asleep
-[1518-07-27 00:46] falls asleep
-[1518-04-07 00:48] falls asleep
-[1518-05-03 00:48] falls asleep
-[1518-05-07 00:39] wakes up
-[1518-06-26 00:30] wakes up
-[1518-07-12 00:59] wakes up
-[1518-06-03 23:59] Guard #127 begins shift
-[1518-10-15 00:41] wakes up
-[1518-08-05 00:17] falls asleep
-[1518-05-16 00:47] wakes up
-[1518-07-06 00:21] falls asleep
-[1518-07-26 00:29] wakes up
-[1518-07-19 00:48] wakes up
-[1518-10-29 00:49] wakes up
-[1518-09-22 00:55] wakes up
-[1518-07-20 00:57] wakes up
-[1518-08-15 00:00] Guard #2269 begins shift
-[1518-09-05 00:01] Guard #1307 begins shift
-[1518-08-02 00:02] Guard #2437 begins shift
-[1518-10-29 00:42] falls asleep
-[1518-03-23 23:54] Guard #1303 begins shift
-[1518-05-12 00:44] wakes up
-[1518-09-24 00:34] wakes up
-[1518-08-13 23:57] Guard #1447 begins shift
-[1518-06-16 00:48] falls asleep
-[1518-06-08 23:58] Guard #127 begins shift
-[1518-10-24 00:48] wakes up
-[1518-03-26 00:07] falls asleep
-[1518-10-28 00:23] wakes up
-[1518-07-31 00:38] wakes up
-[1518-08-27 23:58] Guard #1307 begins shift
-[1518-08-04 00:47] wakes up
-[1518-09-02 00:58] wakes up
-[1518-09-23 00:02] Guard #2617 begins shift
-[1518-02-22 00:19] falls asleep
-[1518-05-16 00:35] falls asleep
-[1518-10-04 00:51] wakes up
-[1518-03-27 23:51] Guard #1009 begins shift
-[1518-08-23 00:32] wakes up
-[1518-08-11 00:00] Guard #1447 begins shift
-[1518-06-25 00:22] falls asleep
-[1518-05-11 00:35] wakes up
-[1518-07-19 00:02] Guard #1447 begins shift
-[1518-09-15 00:42] falls asleep
-[1518-05-21 00:29] wakes up
-[1518-05-12 00:01] Guard #3011 begins shift
-[1518-08-29 00:27] falls asleep
-[1518-02-23 00:50] wakes up
-[1518-08-30 23:54] Guard #1831 begins shift
-[1518-06-28 00:01] Guard #1307 begins shift
-[1518-07-19 23:59] Guard #659 begins shift
-[1518-04-06 00:04] Guard #523 begins shift
-[1518-06-10 00:16] wakes up
-[1518-06-09 00:56] falls asleep
-[1518-02-26 00:58] wakes up
-[1518-02-23 00:31] falls asleep
-[1518-08-21 00:16] falls asleep
-[1518-04-14 00:58] wakes up
-[1518-11-10 00:05] falls asleep
-[1518-03-09 00:00] Guard #1447 begins shift
-[1518-06-23 00:04] falls asleep
-[1518-09-09 00:05] falls asleep
-[1518-07-05 00:50] falls asleep
-[1518-10-12 00:24] wakes up
-[1518-04-06 00:37] falls asleep
-[1518-08-02 00:42] falls asleep
-[1518-02-25 00:36] wakes up
-[1518-03-28 00:00] falls asleep
-[1518-09-25 00:00] Guard #2239 begins shift
-[1518-11-18 00:52] wakes up
-[1518-11-07 00:55] wakes up
-[1518-10-20 00:00] Guard #3323 begins shift
-[1518-05-21 00:46] wakes up
-[1518-08-20 23:59] Guard #2437 begins shift
-[1518-11-17 00:34] wakes up
-[1518-04-27 00:19] falls asleep
-[1518-06-10 00:00] Guard #3307 begins shift
-[1518-03-14 00:44] wakes up
-[1518-05-25 00:39] wakes up
-[1518-10-17 00:36] falls asleep
-[1518-11-09 00:02] Guard #523 begins shift
-[1518-08-09 00:38] wakes up
-[1518-09-26 00:53] wakes up
-[1518-03-01 00:25] falls asleep
-[1518-03-28 00:44] wakes up
-[1518-11-11 00:27] wakes up
-[1518-06-19 00:34] wakes up
-[1518-05-11 00:33] falls asleep
-[1518-05-26 00:39] wakes up
-[1518-08-19 00:30] falls asleep
-[1518-06-13 00:59] wakes up
-[1518-04-11 00:06] falls asleep
-[1518-06-05 00:02] Guard #1447 begins shift
-[1518-02-22 00:37] wakes up
-[1518-07-30 00:57] wakes up
-[1518-03-26 00:46] wakes up
-[1518-06-23 00:34] wakes up
-[1518-08-14 00:57] wakes up
-[1518-06-06 00:03] Guard #1979 begins shift
-[1518-10-03 00:02] Guard #467 begins shift
-[1518-09-15 23:57] Guard #1901 begins shift
-[1518-03-24 00:35] wakes up
-[1518-04-14 00:24] falls asleep
-[1518-07-23 00:45] wakes up
-[1518-04-11 00:50] falls asleep
-[1518-08-15 00:54] falls asleep
-[1518-02-25 00:03] Guard #1307 begins shift
-[1518-07-17 00:59] wakes up
-[1518-10-04 00:03] Guard #1831 begins shift
-[1518-07-11 00:32] falls asleep
-[1518-08-25 00:49] wakes up
-[1518-03-08 00:00] Guard #1901 begins shift
-[1518-11-16 00:56] falls asleep
-[1518-08-19 00:03] Guard #1009 begins shift
-[1518-08-12 00:27] falls asleep
-[1518-11-09 00:27] wakes up
-[1518-04-10 00:48] wakes up
-[1518-11-14 00:32] wakes up
-[1518-10-28 00:50] wakes up
-[1518-10-15 23:56] Guard #1901 begins shift
-[1518-07-14 00:10] falls asleep
-[1518-09-18 00:54] wakes up
-[1518-07-10 00:00] Guard #3323 begins shift
-[1518-08-28 00:31] wakes up
-[1518-06-21 00:05] falls asleep
-[1518-04-02 00:27] falls asleep
-[1518-10-20 00:33] falls asleep
-[1518-05-09 00:01] falls asleep
-[1518-03-26 00:02] Guard #1901 begins shift
-[1518-10-13 00:41] wakes up
-[1518-06-03 00:55] falls asleep
-[1518-04-18 00:58] wakes up
-[1518-07-25 00:20] wakes up
-[1518-08-04 00:30] wakes up
-[1518-05-30 23:51] Guard #2617 begins shift
-[1518-08-01 00:50] wakes up
-[1518-11-12 00:26] falls asleep
-[1518-04-21 00:00] Guard #991 begins shift
-[1518-11-14 00:55] wakes up
-[1518-07-12 00:57] falls asleep
-[1518-08-09 00:36] falls asleep
-[1518-08-19 00:34] wakes up
-[1518-04-23 00:30] wakes up
-[1518-02-22 00:54] wakes up
-[1518-09-26 00:51] falls asleep
-[1518-03-20 00:56] wakes up
-[1518-11-08 00:25] falls asleep
-[1518-11-19 00:51] falls asleep
-[1518-10-13 23:56] Guard #1979 begins shift
-[1518-04-07 00:36] wakes up
-[1518-05-25 00:28] falls asleep
-[1518-04-23 00:58] wakes up
-[1518-04-18 00:46] wakes up
-[1518-09-11 00:57] falls asleep
-[1518-04-27 00:52] wakes up
-[1518-11-18 00:35] falls asleep
-[1518-09-05 00:26] falls asleep
-[1518-11-15 00:58] wakes up
-[1518-02-23 00:40] wakes up
-[1518-10-02 00:37] falls asleep
-[1518-08-27 00:00] Guard #3011 begins shift
-[1518-04-13 00:49] falls asleep
-[1518-07-28 00:20] falls asleep
-[1518-03-04 00:47] wakes up
-[1518-03-24 00:04] falls asleep
-[1518-03-20 23:58] Guard #2753 begins shift
-[1518-11-14 00:45] falls asleep
-[1518-09-11 00:59] wakes up
-[1518-06-16 00:40] falls asleep
-[1518-05-27 00:12] wakes up
-[1518-11-01 00:00] Guard #1447 begins shift
-[1518-08-28 23:58] Guard #1307 begins shift
-[1518-05-21 00:04] falls asleep
-[1518-07-23 00:38] falls asleep
-[1518-05-02 00:49] wakes up
-[1518-03-24 23:57] Guard #2269 begins shift
-[1518-06-25 00:30] falls asleep
-[1518-08-02 23:56] Guard #3011 begins shift
-[1518-05-07 00:00] Guard #2617 begins shift
-[1518-04-26 00:57] wakes up
-[1518-04-21 00:19] falls asleep
-[1518-04-04 00:18] wakes up
-[1518-04-18 23:57] Guard #659 begins shift
-[1518-07-18 00:41] falls asleep
-[1518-09-08 00:40] wakes up
-[1518-09-28 00:33] falls asleep
-[1518-11-03 00:04] Guard #3323 begins shift
-[1518-08-15 00:26] falls asleep
-[1518-10-19 00:14] falls asleep
-[1518-03-01 00:10] falls asleep
-[1518-06-14 00:45] wakes up
-[1518-06-19 00:55] wakes up
-[1518-06-11 00:41] wakes up
-[1518-03-02 00:29] falls asleep
-[1518-09-18 00:40] falls asleep
-[1518-07-17 00:54] falls asleep
-[1518-11-13 00:33] wakes up
-[1518-09-30 00:15] falls asleep
-[1518-11-04 00:59] wakes up
-[1518-04-24 00:57] falls asleep
-[1518-09-06 00:40] wakes up
-[1518-10-20 00:59] wakes up
-[1518-05-26 00:10] wakes up
-[1518-08-20 00:56] wakes up
-[1518-06-19 00:04] falls asleep
-[1518-05-07 00:33] falls asleep
-[1518-10-31 00:21] wakes up
-[1518-04-13 00:55] wakes up
-[1518-11-22 00:42] wakes up
-[1518-10-17 00:20] wakes up
-[1518-03-19 23:47] Guard #2083 begins shift
-[1518-08-26 00:01] Guard #523 begins shift
-[1518-04-20 00:01] falls asleep
-[1518-11-23 00:00] Guard #3307 begins shift
-[1518-03-10 00:28] wakes up
-[1518-09-18 00:45] wakes up
-[1518-07-07 00:19] falls asleep
-[1518-09-23 00:14] falls asleep
-[1518-08-17 00:59] wakes up
-[1518-10-13 00:32] falls asleep
-[1518-03-01 00:31] falls asleep
-[1518-10-25 00:49] falls asleep
-[1518-08-07 00:27] falls asleep
-[1518-03-06 00:58] wakes up
-[1518-08-29 00:32] wakes up
-[1518-09-23 00:17] wakes up
-[1518-03-07 00:01] Guard #3251 begins shift
-[1518-08-06 00:53] wakes up
-[1518-09-27 23:56] Guard #3011 begins shift
-[1518-04-30 23:57] Guard #3323 begins shift
-[1518-03-11 00:13] falls asleep
-[1518-05-20 00:00] Guard #1979 begins shift
-[1518-03-29 00:47] wakes up
-[1518-09-08 00:02] Guard #127 begins shift
-[1518-09-08 23:47] Guard #2437 begins shift
-[1518-05-14 00:53] wakes up
-[1518-06-25 00:02] falls asleep
+position=<-10166, -20343> velocity=< 1,  2>
+position=< 10430,  20752> velocity=<-1, -2>
+position=< 51470, -20342> velocity=<-5,  2>
+position=<-40983, -10076> velocity=< 4,  1>
+position=< 30947, -40894> velocity=<-3,  4>
+position=< 20709,  51575> velocity=<-2, -5>
+position=< 20704, -40898> velocity=<-2,  4>
+position=<-40946,  51577> velocity=< 4, -5>
+position=<-30712,  41294> velocity=< 3, -4>
+position=<-40939,  41298> velocity=< 4, -4>
+position=< 30975,  41295> velocity=<-3, -4>
+position=<-30671, -40898> velocity=< 3,  4>
+position=< 41249, -40897> velocity=<-4,  4>
+position=<-51230,  31026> velocity=< 5, -3>
+position=<-20448,  31027> velocity=< 2, -3>
+position=< 30978,  31023> velocity=<-3, -3>
+position=<-30711,  41298> velocity=< 3, -4>
+position=<-10147, -20348> velocity=< 1,  2>
+position=< 41244,  51570> velocity=<-4, -5>
+position=< 41204,  41300> velocity=<-4, -4>
+position=< 30938,  31020> velocity=<-3, -3>
+position=<-20397, -40893> velocity=< 2,  4>
+position=<-20424, -20347> velocity=< 2,  2>
+position=<-30717,  41302> velocity=< 3, -4>
+position=<-10174, -40896> velocity=< 1,  4>
+position=< 30962,  51573> velocity=<-3, -5>
+position=< 41236,  10478> velocity=<-4, -1>
+position=<-51254,  51575> velocity=< 5, -5>
+position=< 41236, -30621> velocity=<-4,  3>
+position=<-10141,  10481> velocity=< 1, -1>
+position=<-40991, -20344> velocity=< 4,  2>
+position=<-51241,  41294> velocity=< 5, -4>
+position=<-30678, -30624> velocity=< 3,  3>
+position=<-30672,  31020> velocity=< 3, -3>
+position=<-40975,  41300> velocity=< 4, -4>
+position=<-30669,  41299> velocity=< 3, -4>
+position=< 51491, -30618> velocity=<-5,  3>
+position=<-20444, -30616> velocity=< 2,  3>
+position=< 30946,  10474> velocity=<-3, -1>
+position=< 20704, -51171> velocity=<-2,  5>
+position=<-10155,  10477> velocity=< 1, -1>
+position=<-51267,  51577> velocity=< 5, -5>
+position=<-10129, -20349> velocity=< 1,  2>
+position=< 20659,  41298> velocity=<-2, -4>
+position=<-20408, -20346> velocity=< 2,  2>
+position=<-40951, -40891> velocity=< 4,  4>
+position=< 41212,  41302> velocity=<-4, -4>
+position=<-51246,  31028> velocity=< 5, -3>
+position=< 10390, -20349> velocity=<-1,  2>
+position=<-30701,  31025> velocity=< 3, -3>
+position=<-51262,  31021> velocity=< 5, -3>
+position=< 51518, -30616> velocity=<-5,  3>
+position=<-40935, -20344> velocity=< 4,  2>
+position=< 10419, -30615> velocity=<-1,  3>
+position=< 41196, -30622> velocity=<-4,  3>
+position=<-10150, -10075> velocity=< 1,  1>
+position=< 10414,  20751> velocity=<-1, -2>
+position=<-10153,  20747> velocity=< 1, -2>
+position=< 20649,  41294> velocity=<-2, -4>
+position=< 10431, -30620> velocity=<-1,  3>
+position=<-10172,  51577> velocity=< 1, -5>
+position=<-40936, -40894> velocity=< 4,  4>
+position=<-20429,  41299> velocity=< 2, -4>
+position=< 51514,  51576> velocity=<-5, -5>
+position=< 41252,  41302> velocity=<-4, -4>
+position=<-40953, -10071> velocity=< 4,  1>
+position=< 51480,  10472> velocity=<-5, -1>
+position=<-30682,  51575> velocity=< 3, -5>
+position=< 10395,  10475> velocity=<-1, -1>
+position=< 30978, -20343> velocity=<-3,  2>
+position=< 51512, -51172> velocity=<-5,  5>
+position=< 30924,  20746> velocity=<-3, -2>
+position=< 41216,  20754> velocity=<-4, -2>
+position=< 30940,  20749> velocity=<-3, -2>
+position=<-51262,  51572> velocity=< 5, -5>
+position=<-30661, -20350> velocity=< 3,  2>
+position=< 30939,  31021> velocity=<-3, -3>
+position=< 51491,  41294> velocity=<-5, -4>
+position=<-51270, -30618> velocity=< 5,  3>
+position=< 30975, -20342> velocity=<-3,  2>
+position=<-40945, -30619> velocity=< 4,  3>
+position=< 41222,  20752> velocity=<-4, -2>
+position=< 30954,  51574> velocity=<-3, -5>
+position=< 51499, -10076> velocity=<-5,  1>
+position=< 10406, -40894> velocity=<-1,  4>
+position=<-51254,  10473> velocity=< 5, -1>
+position=< 41244, -51164> velocity=<-4,  5>
+position=< 10411,  51569> velocity=<-1, -5>
+position=<-30674,  41296> velocity=< 3, -4>
+position=<-20448, -51164> velocity=< 2,  5>
+position=<-20432, -30618> velocity=< 2,  3>
+position=<-51260, -30620> velocity=< 5,  3>
+position=< 10430,  31026> velocity=<-1, -3>
+position=<-40940, -20349> velocity=< 4,  2>
+position=<-20398, -10076> velocity=< 2,  1>
+position=<-40940,  41302> velocity=< 4, -4>
+position=< 10379,  20755> velocity=<-1, -2>
+position=< 51506,  41294> velocity=<-5, -4>
+position=< 51515,  10477> velocity=<-5, -1>
+position=<-51235,  51568> velocity=< 5, -5>
+position=<-51249, -10073> velocity=< 5,  1>
+position=<-10124, -20350> velocity=< 1,  2>
+position=< 20691,  10472> velocity=<-2, -1>
+position=< 30955, -20350> velocity=<-3,  2>
+position=< 20699,  10472> velocity=<-2, -1>
+position=<-30673,  31020> velocity=< 3, -3>
+position=< 51526, -40894> velocity=<-5,  4>
+position=< 41204, -10069> velocity=<-4,  1>
+position=<-20429,  31026> velocity=< 2, -3>
+position=<-10129,  51576> velocity=< 1, -5>
+position=< 30943, -20347> velocity=<-3,  2>
+position=<-20395, -30615> velocity=< 2,  3>
+position=<-40994,  51568> velocity=< 4, -5>
+position=< 10382, -10075> velocity=<-1,  1>
+position=< 51473,  51573> velocity=<-5, -5>
+position=<-40963,  20746> velocity=< 4, -2>
+position=<-20422, -10070> velocity=< 2,  1>
+position=< 30954,  31024> velocity=<-3, -3>
+position=<-20422,  31023> velocity=< 2, -3>
+position=< 41201,  20751> velocity=<-4, -2>
+position=< 10382,  10476> velocity=<-1, -1>
+position=<-40991, -20343> velocity=< 4,  2>
+position=<-20400, -40897> velocity=< 2,  4>
+position=<-30702, -51164> velocity=< 3,  5>
+position=<-51245,  10477> velocity=< 5, -1>
+position=< 10390,  20753> velocity=<-1, -2>
+position=<-20439, -51168> velocity=< 2,  5>
+position=<-40970,  10475> velocity=< 4, -1>
+position=< 51489, -30618> velocity=<-5,  3>
+position=<-20387, -40895> velocity=< 2,  4>
+position=<-40953,  31029> velocity=< 4, -3>
+position=<-30670, -51164> velocity=< 3,  5>
+position=< 20669, -30623> velocity=<-2,  3>
+position=<-10124,  20755> velocity=< 1, -2>
+position=< 30962,  10475> velocity=<-3, -1>
+position=<-30665,  41298> velocity=< 3, -4>
+position=< 51494,  31029> velocity=<-5, -3>
+position=<-20416, -10073> velocity=< 2,  1>
+position=< 20672,  20750> velocity=<-2, -2>
+position=< 41217, -51170> velocity=<-4,  5>
+position=< 41244, -10070> velocity=<-4,  1>
+position=< 20704,  20749> velocity=<-2, -2>
+position=<-30661,  20747> velocity=< 3, -2>
+position=< 41225,  20755> velocity=<-4, -2>
+position=<-10126,  31026> velocity=< 1, -3>
+position=< 10430,  31026> velocity=<-1, -3>
+position=< 20649,  20746> velocity=<-2, -2>
+position=< 20676, -40897> velocity=<-2,  4>
+position=< 10414, -10075> velocity=<-1,  1>
+position=<-20444, -20345> velocity=< 2,  2>
+position=< 51482, -51172> velocity=<-5,  5>
+position=<-51225, -30617> velocity=< 5,  3>
+position=<-40940,  20755> velocity=< 4, -2>
+position=<-20405, -51172> velocity=< 2,  5>
+position=< 20672,  31026> velocity=<-2, -3>
+position=< 51519, -51172> velocity=<-5,  5>
+position=< 10407, -51163> velocity=<-1,  5>
+position=<-10122,  20746> velocity=< 1, -2>
+position=< 51504,  41294> velocity=<-5, -4>
+position=<-30703,  51574> velocity=< 3, -5>
+position=<-40948, -30617> velocity=< 4,  3>
+position=<-10165,  10476> velocity=< 1, -1>
+position=<-30674,  41298> velocity=< 3, -4>
+position=< 30930,  31020> velocity=<-3, -3>
+position=< 10408,  20746> velocity=<-1, -2>
+position=<-10158,  41303> velocity=< 1, -4>
+position=< 10398,  10479> velocity=<-1, -1>
+position=<-51269,  41303> velocity=< 5, -4>
+position=< 51490, -20343> velocity=<-5,  2>
+position=< 10378,  51568> velocity=<-1, -5>
+position=<-51242, -10075> velocity=< 5,  1>
+position=< 20683,  20755> velocity=<-2, -2>
+position=<-20427,  10473> velocity=< 2, -1>
+position=<-30717, -20344> velocity=< 3,  2>
+position=<-20436, -10072> velocity=< 2,  1>
+position=< 10379, -10070> velocity=<-1,  1>
+position=<-20387,  10474> velocity=< 2, -1>
+position=<-51270,  51570> velocity=< 5, -5>
+position=< 51470, -10072> velocity=<-5,  1>
+position=<-30677, -10069> velocity=< 3,  1>
+position=< 30954, -30622> velocity=<-3,  3>
+position=<-40959,  20754> velocity=< 4, -2>
+position=<-51234,  51577> velocity=< 5, -5>
+position=<-20446, -20341> velocity=< 2,  2>
+position=< 51471, -20341> velocity=<-5,  2>
+position=< 30967, -51164> velocity=<-3,  5>
+position=<-20430,  31023> velocity=< 2, -3>
+position=<-30661,  41302> velocity=< 3, -4>
+position=<-51230,  10474> velocity=< 5, -1>
+position=<-51258,  41298> velocity=< 5, -4>
+position=< 30954, -20348> velocity=<-3,  2>
+position=<-20436, -51168> velocity=< 2,  5>
+position=<-10153, -20350> velocity=< 1,  2>
+position=<-10142, -51171> velocity=< 1,  5>
+position=<-10174,  20753> velocity=< 1, -2>
+position=<-10118, -30621> velocity=< 1,  3>
+position=< 10385, -51168> velocity=<-1,  5>
+position=<-30690, -20347> velocity=< 3,  2>
+position=< 20683, -51172> velocity=<-2,  5>
+position=<-30664,  41298> velocity=< 3, -4>
+position=< 30947,  20751> velocity=<-3, -2>
+position=< 10407,  41303> velocity=<-1, -4>
+position=< 51502,  51575> velocity=<-5, -5>
+position=< 51495, -20345> velocity=<-5,  2>
+position=<-20424, -51169> velocity=< 2,  5>
+position=< 30941, -30619> velocity=<-3,  3>
+position=<-51244,  41300> velocity=< 5, -4>
+position=<-10153, -20345> velocity=< 1,  2>
+position=< 30964,  10472> velocity=<-3, -1>
+position=<-10147, -10074> velocity=< 1,  1>
+position=<-20444, -40898> velocity=< 2,  4>
+position=< 51522,  20754> velocity=<-5, -2>
+position=<-10134, -20342> velocity=< 1,  2>
+position=<-40953, -10067> velocity=< 4,  1>
+position=<-30698, -40893> velocity=< 3,  4>
+position=<-20432, -10072> velocity=< 2,  1>
+position=< 41228, -20347> velocity=<-4,  2>
+position=<-30669, -40893> velocity=< 3,  4>
+position=<-10118,  10476> velocity=< 1, -1>
+position=<-40978, -10072> velocity=< 4,  1>
+position=< 51482, -30624> velocity=<-5,  3>
+position=<-40940, -30617> velocity=< 4,  3>
+position=<-40969,  51575> velocity=< 4, -5>
+position=< 30964,  51577> velocity=<-3, -5>
+position=<-30690, -40890> velocity=< 3,  4>
+position=< 10382, -10074> velocity=<-1,  1>
+position=< 41201, -51171> velocity=<-4,  5>
+position=< 41249, -30617> velocity=<-4,  3>
+position=< 10374, -10075> velocity=<-1,  1>
+position=<-30701,  31024> velocity=< 3, -3>
+position=<-20387, -51169> velocity=< 2,  5>
+position=<-51262,  31021> velocity=< 5, -3>
+position=<-40980, -30622> velocity=< 4,  3>
+position=< 51491, -40890> velocity=<-5,  4>
+position=< 20709, -10071> velocity=<-2,  1>
+position=<-40991,  31021> velocity=< 4, -3>
+position=< 30925, -30624> velocity=<-3,  3>
+position=< 51488, -20347> velocity=<-5,  2>
+position=<-30685, -10068> velocity=< 3,  1>
+position=< 10432,  20750> velocity=<-1, -2>
+position=< 51486,  20749> velocity=<-5, -2>
+position=<-10113,  20746> velocity=< 1, -2>
+position=< 41224,  41302> velocity=<-4, -4>
+position=<-30711,  31020> velocity=< 3, -3>
+position=<-51214, -51167> velocity=< 5,  5>
+position=< 10406,  31025> velocity=<-1, -3>
+position=< 51519, -10067> velocity=<-5,  1>
+position=< 51470,  41299> velocity=<-5, -4>
+position=< 41205, -40898> velocity=<-4,  4>
+position=< 41212,  41295> velocity=<-4, -4>
+position=<-20424,  41296> velocity=< 2, -4>
+position=<-30701, -10070> velocity=< 3,  1>
+position=< 51494,  20752> velocity=<-5, -2>
+position=< 10406, -30620> velocity=<-1,  3>
+position=< 51494,  20746> velocity=<-5, -2>
+position=< 20704, -40891> velocity=<-2,  4>
+position=<-20392, -51164> velocity=< 2,  5>
+position=< 10435, -30623> velocity=<-1,  3>
+position=< 20672,  41298> velocity=<-2, -4>
+position=<-30679, -20350> velocity=< 3,  2>
+position=< 30957,  20746> velocity=<-3, -2>
+position=< 41247, -20341> velocity=<-4,  2>
+position=<-51260,  31024> velocity=< 5, -3>
+position=< 41228, -20344> velocity=<-4,  2>
+position=< 20704, -10074> velocity=<-2,  1>
+position=<-10174, -30620> velocity=< 1,  3>
+position=< 20648,  20754> velocity=<-2, -2>
+position=< 20693,  10473> velocity=<-2, -1>
+position=<-30661,  51569> velocity=< 3, -5>
+position=<-40968,  51569> velocity=< 4, -5>
+position=< 10379, -51163> velocity=<-1,  5>
+position=<-20424, -51166> velocity=< 2,  5>
+position=< 10406, -51170> velocity=<-1,  5>
+position=<-51222,  41297> velocity=< 5, -4>
+position=< 30935,  41294> velocity=<-3, -4>
+position=<-40980,  51573> velocity=< 4, -5>
+position=<-20396, -20345> velocity=< 2,  2>
+position=<-30701, -20343> velocity=< 3,  2>
+position=< 41206,  10476> velocity=<-4, -1>
+position=< 20653,  10479> velocity=<-2, -1>
+position=<-51226,  20754> velocity=< 5, -2>
+position=<-30669,  10477> velocity=< 3, -1>
+position=<-51262,  10475> velocity=< 5, -1>
+position=< 51510,  20749> velocity=<-5, -2>
+position=< 51478, -51163> velocity=<-5,  5>
+position=<-30706, -20345> velocity=< 3,  2>
+position=< 20709,  20755> velocity=<-2, -2>
+position=< 30926, -51172> velocity=<-3,  5>
+position=<-30721,  10481> velocity=< 3, -1>
+position=< 51515, -51167> velocity=<-5,  5>
+position=< 51518,  10480> velocity=<-5, -1>
+position=< 20676, -10068> velocity=<-2,  1>
+position=<-51217, -30618> velocity=< 5,  3>
+position=< 41236,  51569> velocity=<-4, -5>
+position=< 51518,  10477> velocity=<-5, -1>
+position=< 10414,  20747> velocity=<-1, -2>
+position=<-51214,  51570> velocity=< 5, -5>
+position=< 41241, -30623> velocity=<-4,  3>
+position=<-10166, -51164> velocity=< 1,  5>
+position=<-40972, -10067> velocity=< 4,  1>
+position=<-51214,  51568> velocity=< 5, -5>
+position=<-20414, -20341> velocity=< 2,  2>
+position=<-30677,  31026> velocity=< 3, -3>
+position=< 10422,  31023> velocity=<-1, -3>
+position=< 10374,  51571> velocity=<-1, -5>
+position=< 10390, -10068> velocity=<-1,  1>
+position=<-51209, -20341> velocity=< 5,  2>
+position=< 41213, -20348> velocity=<-4,  2>
+position=<-10145, -30615> velocity=< 1,  3>
+position=< 51511,  51577> velocity=<-5, -5>
+position=< 30930,  31027> velocity=<-3, -3>
+position=<-20389,  20750> velocity=< 2, -2>
+position=< 30971,  20755> velocity=<-3, -2>
+position=<-10142,  20751> velocity=< 1, -2>
+position=<-20427, -51163> velocity=< 2,  5>
+position=<-20387, -30624> velocity=< 2,  3>
+position=<-30661,  10479> velocity=< 3, -1>
+position=<-30706, -20347> velocity=< 3,  2>
+position=<-20387,  41299> velocity=< 2, -4>
+position=< 30962,  31026> velocity=<-3, -3>
+position=<-51209, -51168> velocity=< 5,  5>
+position=< 41201, -51165> velocity=<-4,  5>
+position=< 41252,  51573> velocity=<-4, -5>
+position=< 30927, -10075> velocity=<-3,  1>
+position=<-40962,  10481> velocity=< 4, -1>
+position=< 10382, -10067> velocity=<-1,  1>
+position=<-30722,  31027> velocity=< 3, -3>
+position=<-10126,  20750> velocity=< 1, -2>
+position=<-20444,  20754> velocity=< 2, -2>
+position=< 20664,  41302> velocity=<-2, -4>
+position=<-10154, -51164> velocity=< 1,  5>
+position=<-51229,  31020> velocity=< 5, -3>
+position=<-40983,  31020> velocity=< 4, -3>
+position=<-40970,  10475> velocity=< 4, -1>
+position=< 30966, -40893> velocity=<-3,  4>
+position=<-30701, -20342> velocity=< 3,  2>
+position=< 51507,  10473> velocity=<-5, -1>
+position=< 51526, -20341> velocity=<-5,  2>
+position=< 20690, -30624> velocity=<-2,  3>
+position=<-20440,  31025> velocity=< 2, -3>
+position=<-40940, -10075> velocity=< 4,  1>
+position=<-51238,  10477> velocity=< 5, -1>
+position=< 51518, -10073> velocity=<-5,  1>
+position=< 51479, -10072> velocity=<-5,  1>
+position=<-10126, -51168> velocity=< 1,  5>
+position=< 41244, -20345> velocity=<-4,  2>
+position=< 41225, -30624> velocity=<-4,  3>
+position=< 51519,  41303> velocity=<-5, -4>
+position=<-40956, -30616> velocity=< 4,  3>
+position=<-20447, -40898> velocity=< 2,  4>

@@ -67,20 +67,6 @@ const parseInput = input => {
 	};
 };
 
-const next = (current, arr) => {
-	const max = arr.length;
-	if (max === 1) return 1;
-	const res = current + 2;
-
-	return res <= max ? res : Math.abs(max - res);
-};
-
-const prev = (current, arr) => {
-	const res = current - 7;
-
-	return res < 0 ? arr.length + res : res;
-};
-
 const play = (players, lastMarble, printAt = 0) => {
 	const playField = new PlayField(0);
 	let player = 0;
@@ -121,5 +107,3 @@ module.exports = {
 	first,
 	second
 };
-
-// 412231 to low
