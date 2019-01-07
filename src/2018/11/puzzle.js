@@ -3,7 +3,8 @@ const { progress } = require('../../utils/progress');
 const fs = require('fs');
 const { resolve } = require('path');
 
-const GRID_SIZE = 300;
+const PRINT = false;
+const GRID_SIZE = 3;
 
 const getPowerLevel = gridSerial => (x, y) => {
 	const rackId = x + 10;
@@ -43,20 +44,21 @@ const calcSums = grid => {
 	return sums;
 };
 
-function first(input) {
-	const serial = Number(input[0]);
-	const grid = createGrid(serial);
-	const sums = calcSums(grid);
-
-	return keepOne(Object.entries(sums), (a, b) => a[1] > b[1])[0];
-}
-
 function second(input) {
 	const serial = Number(input[0]);
 	const grid = createGrid(serial);
-	//.map(row => row.map(cell => (cell < 0 ? cell + '' : ' ' + cell)).join(' '))
-	//.join('\n');
-	// fs.writeFileSync(resolve(__dirname, 'grid.txt'), grid);
+
+	if (PRINT) {
+		fs.writeFileSync(
+			resolve(__dirname, 'grid.txt'),
+			grid
+				.map(row =>
+					row.map(cell => (cell < 0 ? cell + '' : ' ' + cell)).join(' ')
+				)
+				.join('\n')
+		);
+		return null;
+	}
 
 	let max = { value: 0 };
 
@@ -69,21 +71,24 @@ function second(input) {
 		for (let j = 0; j < row.length; j++) {
 			let val = 0;
 			let prev = 0;
-			const maxSquare = Math.min(17, GRID_SIZE - Math.max(i, j));
+			const maxSquare = GRID_SIZE - Math.max(i, j);
 			for (let s = 0; s < maxSquare; s++) {
+				// bottom right is duplicated!!
+				const newValues = [
+					...range(0, s).map(r => grid[i + r][j + s]),
+					...range(0, s).map(c => grid[i + s][i + c])
+				];
+				console.log(newValues);
 				try {
-					val = sum([
-						val,
-						...range(0, s).map(r => grid[i + r][j + s]),
-						...range(0, s).map(c => grid[i + s][i + c])
-					]);
+					val = sum([val, ...newValues]);
+					console.log(`${j},${j},${s}`, val, prev);
 					count++;
 					if (prev < val) {
 						if (val > max.value) {
 							max = {
 								id: `${j + 1},${j + 1},${s}`,
-								value: val,
-							}
+								value: val
+							};
 						}
 						// s = maxSquare;
 					}
@@ -95,11 +100,19 @@ function second(input) {
 			}
 			cells++;
 		}
-		printProgress(cells);
+		// printProgress(cells);
 	}
 
 	console.log(max, count);
 	return max.id;
+}
+
+function first(input) {
+	const serial = Number(input[0]);
+	const grid = createGrid(serial);
+	const sums = calcSums(grid);
+
+	return keepOne(Object.entries(sums), (a, b) => a[1] > b[1])[0];
 }
 
 module.exports = {
