@@ -1,1 +1,0 @@
-"paste your sample data in sample_1.txt"
