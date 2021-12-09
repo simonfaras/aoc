@@ -9,7 +9,7 @@ while (input.length > 0 && !match) {
   const current = input.shift();
 
   const currentArr = current.split('');
-  input.forEach(id => {
+  input.forEach((id) => {
     let mismatchIndex = -1;
     let mismatches = 0;
     for (let i = 0; i < currentArr.length; i++) {
@@ -36,6 +36,6 @@ result.splice(replaceIndex, 1);
 console.log(result.join(''));
 
 module.exports = {
-	run: () => sollution(input),
-	test: sollution
+  run: () => sollution(input),
+  test: sollution,
 };

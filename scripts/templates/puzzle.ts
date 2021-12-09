@@ -2,17 +2,17 @@
 import { Input } from '../../../utils/core';
 
 function parseInput(input: Input) {
-	return input;
+  return input;
 }
 
 export function first(input: Input) {
-	const data = parseInput(input);
+  const data = parseInput(input);
 
-	return data;
+  return data;
 }
 
 export function second(input: Input) {
-	const data = parseInput(input);
+  const data = parseInput(input);
 
-	return data;
+  return data;
 }

@@ -248,14 +248,14 @@ const input = [
   'cvgowxoubnhaermslkjdrctzyi',
   'cvgowxqubnheefmslkjdrctzyr',
   'cvgowxqunnhaqfhslkjdrptzyi',
-  'cvgowxqulnhaefmslrjdrntzyi'
+  'cvgowxqulnhaefmslrjdrntzyi',
 ];
 
-const getMatches = id => {
+const getMatches = (id) => {
   const groupings = id.split('').reduce(
     (groups, letter) => ({
       ...groups,
-      [letter]: (groups[letter] || 0) + 1
+      [letter]: (groups[letter] || 0) + 1,
     }),
     {}
   );

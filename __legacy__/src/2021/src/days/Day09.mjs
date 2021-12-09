@@ -3,7 +3,7 @@ const parse = (input) => input.map((r) => r.split('').map(Number));
 const base = Array(3).fill(-1);
 const offsets = base.reduce(
   (acc, x, x_i) => [...acc, ...base.map((y, y_i) => [x + x_i, y + y_i])],
-  [],
+  []
 );
 const simpleOffsets = offsets.filter(([x, y]) => Math.abs(x) !== Math.abs(y));
 
@@ -50,10 +50,10 @@ export const puzzleB = (input) => {
       ...acc,
       ...row.reduce(
         (_acc, value, col_i) => ({ ..._acc, [id(row_i, col_i)]: value }),
-        {},
+        {}
       ),
     }),
-    {},
+    {}
   );
 
   const iter = [
@@ -89,7 +89,7 @@ export const puzzleB = (input) => {
     const base = points[id(r, c)];
 
     const basinPoints = getAdjacent(r, c).filter(
-      (point) => points[point] !== 9 && points[point] > base,
+      (point) => points[point] !== 9 && points[point] > base
     );
 
     return [

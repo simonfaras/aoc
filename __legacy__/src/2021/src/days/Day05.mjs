@@ -8,7 +8,7 @@ const parse = (input) =>
 
 export const puzzleA = (input) => {
   const data = parse(input).filter(
-    ([[x1, y1], [x2, y2]]) => x1 === x2 || y1 === y2,
+    ([[x1, y1], [x2, y2]]) => x1 === x2 || y1 === y2
   );
   console.log(data);
 

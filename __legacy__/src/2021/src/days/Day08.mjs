@@ -65,7 +65,7 @@ export const puzzleB = (input) => {
     numbers[8] = input.find((i) => i.length === 7);
 
     numbers[6] = input.find(
-      (i) => i.length === 6 && intersect(i.split(''), number(1)).length === 1,
+      (i) => i.length === 6 && intersect(i.split(''), number(1)).length === 1
     );
 
     const _235 = [...new Set(input.filter((i) => i.length === 5))];
@@ -84,20 +84,20 @@ export const puzzleB = (input) => {
     numbers[2] = _235.find((n) => n.includes(positions.e));
 
     numbers[0] = _09.find(
-      (n) => diff(n.split(''), number(8))[0] === positions.d,
+      (n) => diff(n.split(''), number(8))[0] === positions.d
     );
     numbers[9] = _09.find(
-      (n) => diff(n.split(''), number(8))[0] === positions.e,
+      (n) => diff(n.split(''), number(8))[0] === positions.e
     );
 
     numbers[3] = _235.find(
-      (n) => intersect(n.split(''), number(1)).length !== 1,
+      (n) => intersect(n.split(''), number(1)).length !== 1
     );
     numbers[5] = _235.find((n) => n !== numbers[3] && n !== numbers[2]);
 
     const numbersDecoder = numbers.reduce(
       (acc, code, i) => ({ ...acc, [code]: i }),
-      {},
+      {}
     );
 
     return {

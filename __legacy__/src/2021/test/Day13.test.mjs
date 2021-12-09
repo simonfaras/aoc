@@ -1,7 +1,7 @@
 import { puzzleA, puzzleB } from '../src/days/Day13.mjs';
 import {
-    getPuzzleInputStringArray,
-    getPuzzleInputText,
+  getPuzzleInputStringArray,
+  getPuzzleInputText,
 } from '../src/puzzleInputs/index.mjs';
 import { run } from './run.mjs';
 

@@ -19,7 +19,7 @@ export const puzzleA = (input) => {
       }
       return acc;
     },
-    { g: Array(count.length).fill(0), e: Array(count.length).fill(1) },
+    { g: Array(count.length).fill(0), e: Array(count.length).fill(1) }
   );
   const gamma = Number.parseInt(bin.g.join(''), 2);
   const epsilon = Number.parseInt(bin.e.join(''), 2);
@@ -46,17 +46,17 @@ export const puzzleB = (input) => {
     return (
       check(
         codes,
-        codes.reduce((sum, code) => sum + code[index], 0),
+        codes.reduce((sum, code) => sum + code[index], 0)
       ) + 0
     );
   };
   const ox = extracted(
     data,
-    keep((codes, n) => n >= codes.length / 2),
+    keep((codes, n) => n >= codes.length / 2)
   );
   const co = extracted(
     data,
-    keep((codes, n) => n < codes.length / 2),
+    keep((codes, n) => n < codes.length / 2)
   );
 
   return ox * co;

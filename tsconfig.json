@@ -1,14 +1,14 @@
 {
-	"compilerOptions": {
-		"esModuleInterop": true,
-		"lib": ["ESNext"],
-		"target": "ESNext",
-		"module": "CommonJS",
-		"moduleResolution": "Node",
-		"noEmitOnError": false,
-		"noImplicitAny": true,
-		"strictNullChecks": true
-	},
-	"include": ["src", "scripts"],
-	"exclude": ["scripts/templates", "__legacy__"]
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "noEmitOnError": false,
+    "noImplicitAny": true,
+    "strictNullChecks": true
+  },
+  "include": ["src", "scripts"],
+  "exclude": ["scripts/templates", "__legacy__"]
 }

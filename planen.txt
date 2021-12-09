@@ -1,3 +1,0 @@
-start
-    default på dagens problem, är det inte ett vettigt datum fråga efter input
-    finns inte dagens så skapar vi den
