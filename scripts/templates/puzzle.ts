@@ -1,7 +1,10 @@
-export function first(input: string) {
+// @ts-expect-error
+import { Input } from '../../../utils/core';
+
+export function first(input: Input) {
 	return input;
 }
 
-export function second(input: string) {
+export function second(input: Input) {
 	return input;
 }

@@ -7,18 +7,19 @@ console.clear();
 
 const mkdir = util.promisify(fs.mkdir);
 const readdir = util.promisify(fs.readdir);
+const readFile = util.promisify(fs.readFile);
+const writeFile = util.promisify(fs.writeFile);
 const copyFile = util.promisify(fs.copyFile);
 const args = process.argv.slice(2);
 
 function getPuzzleMeta() {
 	const today = new Date(Date.now());
-	const formatDay = (day: string | number | undefined) =>
-		day?.toString().padStart(2, '0');
+	const formatDay = (day: string | number) => day?.toString().padStart(2, '0');
 
 	const dayFromArgs = args[0];
 	const yearFromArgs = args[1];
 
-	const day = formatDay(dayFromArgs || today.getDate());
+	const day = formatDay(dayFromArgs ?? today.getDate());
 	const year = yearFromArgs ?? today.getFullYear().toString();
 
 	const puzzlePath = path.resolve(process.cwd(), 'src/puzzles/', year, day);
@@ -31,33 +32,49 @@ function getPuzzleMeta() {
 }
 
 async function main() {
-	const meta = getPuzzleMeta();
+	const currentPuzzle = getPuzzleMeta();
 
-	if (!fs.existsSync(meta.path)) {
-		await mkdir(meta.path);
+	if (!fs.existsSync(currentPuzzle.path)) {
+		await mkdir(currentPuzzle.path);
 
 		const templatesPath = path.resolve(__dirname, 'templates');
-		const templateFiles = await readdir(templatesPath);
+		const templateFiles = (await readdir(templatesPath)).map((fileName) => ({
+			fileName,
+			source: path.join(templatesPath, fileName),
+			target: path.join(currentPuzzle.path, fileName),
+			isTs: fileName.endsWith('.ts'),
+		}));
 		await Promise.all(
-			templateFiles.map((file) =>
-				copyFile(path.join(templatesPath, file), path.join(meta.path, file))
-			)
+			templateFiles.map(({ source, target }) => copyFile(source, target))
 		);
+
+		// Remove all @ts-expect-error from source
+		for (const template of templateFiles.filter((template) => template.isTs)) {
+			const content = await readFile(template.target, 'utf-8');
+
+			await writeFile(
+				template.target,
+				content.replaceAll('// @ts-expect-error', ''),
+				{ encoding: 'utf-8' }
+			);
+		}
 	}
 
-	const config = await import(path.join(meta.path, 'config.ts'));
-	const puzzles = await import(path.join(meta.path, 'puzzle.ts'));
+	const config = await import(path.join(currentPuzzle.path, 'config.ts'));
+	const puzzles = await import(path.join(currentPuzzle.path, 'puzzle.ts'));
 
 	const puzzle = puzzles[config.active];
 	const testResult = puzzle(
-		readInput(path.join(meta.path, `sample_${config.sample}.txt`))
+		readInput(path.join(currentPuzzle.path, `sample_${config.sample}.txt`))
 	);
 
 	if (testResult === config.expected[config.active]) {
 		console.log('SUCCESS', testResult);
 		console.clear();
 		console.log('RUN WITH REAL DATA');
-		const result = puzzle(readInput(path.join(meta.path, 'input.txt')));
+		const result = puzzle(
+			readInput(path.join(currentPuzzle.path, 'input.txt'))
+		);
 		console.log(result);
 	} else {
 		console.error('FAIL', testResult);

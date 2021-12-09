@@ -1,9 +1,14 @@
 {
-  "compilerOptions": {
-    "esModuleInterop": true,
-    "lib": ["ES2020"],
-    "target": "ESNext",
-    "module": "CommonJS"
-  },
-  "include": ["src", "scripts"]
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"lib": ["ESNext"],
+		"target": "ESNext",
+		"module": "CommonJS",
+		"moduleResolution": "Node",
+		"noEmitOnError": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true
+	},
+	"include": ["src", "scripts"],
+	"exclude": ["scripts/templates"]
 }
