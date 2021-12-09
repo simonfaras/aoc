@@ -1,0 +1,5 @@
+{
+  "watch": ["src", "scripts"],
+  "ext": "ts,json,txt",
+  "exec": "npx ts-node ./scripts/run.ts"
+}
