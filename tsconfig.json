@@ -10,5 +10,5 @@
 		"strictNullChecks": true
 	},
 	"include": ["src", "scripts"],
-	"exclude": ["scripts/templates"]
+	"exclude": ["scripts/templates", "__legacy__"]
 }
