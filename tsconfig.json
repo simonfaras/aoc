@@ -5,7 +5,7 @@
 		"target": "ESNext",
 		"module": "CommonJS",
 		"moduleResolution": "Node",
-		"noEmitOnError": true,
+		"noEmitOnError": false,
 		"noImplicitAny": true,
 		"strictNullChecks": true
 	},

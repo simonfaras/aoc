@@ -68,16 +68,20 @@ async function main() {
 		readInput(path.join(currentPuzzle.path, `sample_${config.sample}.txt`))
 	);
 
-	if (testResult === config.expected[config.active]) {
+	console.log(`RUNNING ${currentPuzzle.year}/${currentPuzzle.day}`);
+	const expectedResult = config.expected[config.active];
+	if (testResult === expectedResult) {
 		console.log('SUCCESS', testResult);
 		console.clear();
 		console.log('RUN WITH REAL DATA');
 		const result = puzzle(
 			readInput(path.join(currentPuzzle.path, 'input.txt'))
 		);
+		console.log('RESULT:');
 		console.log(result);
 	} else {
-		console.error('FAIL', testResult);
+		console.error('FAIL EXPECTED:', expectedResult);
+		console.error('RESULT', testResult);
 	}
 }
 

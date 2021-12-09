@@ -1,4 +1,4 @@
-// @ts-expect-error
+
 import { Input } from '../../../utils/core';
 
 function parseInput(input: Input) {
