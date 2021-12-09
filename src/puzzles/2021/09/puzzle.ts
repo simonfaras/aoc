@@ -1,8 +1,9 @@
-export function first(input: string) {
-	return input;
+import { Input } from '../../../utils/core';
+
+export function first(input: Input) {
+	return input.asArray().sort();
 }
 
-export function second(input: string) {
-	console.debug('asda');
+export function second(input: Input) {
 	return input;
 }

@@ -1,13 +1,13 @@
 import fs from 'fs';
 import util from 'util';
 import path from 'path';
+import { readInput } from '../src/utils/core';
 
 console.clear();
 
 const mkdir = util.promisify(fs.mkdir);
 const readdir = util.promisify(fs.readdir);
 const copyFile = util.promisify(fs.copyFile);
-const readFile = util.promisify(fs.readFile);
 const args = process.argv.slice(2);
 
 function getPuzzleMeta() {
@@ -45,22 +45,19 @@ async function main() {
 		);
 	}
 
-	const input = await readFile(path.join(meta.path, 'input.txt'), 'utf-8');
 	const config = await import(path.join(meta.path, 'config.ts'));
-	const sample = await readFile(
-		path.join(meta.path, `sample_${config.sample}.txt`),
-		'utf-8'
-	);
 	const puzzles = await import(path.join(meta.path, 'puzzle.ts'));
 
 	const puzzle = puzzles[config.active];
-	const testResult = puzzle(sample);
+	const testResult = puzzle(
+		readInput(path.join(meta.path, `sample_${config.sample}.txt`))
+	);
 
 	if (testResult === config.expected[config.active]) {
 		console.log('SUCCESS', testResult);
 		console.clear();
 		console.log('RUN WITH REAL DATA');
-		const result = puzzle(input);
+		const result = puzzle(readInput(path.join(meta.path, 'input.txt')));
 		console.log(result);
 	} else {
 		console.error('FAIL', testResult);
