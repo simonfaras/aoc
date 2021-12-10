@@ -4,6 +4,7 @@ import { EOL } from 'os';
 declare global {
   interface Array<T> {
     toNumbers(): Array<number>;
+    sum(): Array<number>;
   }
 }
 
@@ -11,6 +12,10 @@ const DefaultSeparator = ',';
 
 Array.prototype.toNumbers = function () {
   return this.map(Number);
+};
+
+Array.prototype.sum = function () {
+  return this.reduce((sum: number, n: number) => sum + n, 0);
 };
 
 export function readInput(path: string): Input {
