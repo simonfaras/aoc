@@ -1,7 +1,7 @@
 import fs from 'fs';
 import util from 'util';
 import path from 'path';
-import { readInput } from '../src/utils/core';
+import { readInput } from '../src/utils';
 
 console.clear();
 
@@ -68,7 +68,9 @@ async function main() {
     readInput(path.join(currentPuzzle.path, `sample_${config.sample}.txt`))
   );
 
-  console.log(`RUNNING ${currentPuzzle.year}/${currentPuzzle.day}`);
+  console.log(
+    `RUNNING ${currentPuzzle.year}/${currentPuzzle.day} - ${config.active}`
+  );
   const expectedResult = config.expected[config.active];
   if (testResult === expectedResult) {
     console.log('SUCCESS', testResult);
