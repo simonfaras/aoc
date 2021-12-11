@@ -31,7 +31,7 @@ function step(grid: Grid<number>): number {
 export function first(input: Input) {
   const data = parseInput(input);
 
-  return range(100)
+  return seq(100)
     .map(() => step(data))
     .sum();
 }
