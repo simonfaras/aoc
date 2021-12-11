@@ -97,4 +97,20 @@ describe('Grid', function () {
     expect(grid.get(1, 0)).toEqual(2);
     expect(grid.get(1, 1)).toEqual(4);
   });
+
+  it('should update all', function () {
+    const grid = new Grid([
+      [1, 2],
+      [3, 4],
+    ]);
+
+    grid.updateAll((v) => {
+      return v + 1;
+    });
+
+    expect(grid.get(0, 0)).toEqual(2);
+    expect(grid.get(0, 1)).toEqual(4);
+    expect(grid.get(1, 0)).toEqual(3);
+    expect(grid.get(1, 1)).toEqual(5);
+  });
 });
