@@ -1,5 +1,5 @@
 // @ts-expect-error
-import { Input } from '../../../utils/core';
+import { Input } from '../../../utils';
 
 function parseInput(input: Input) {
   return input;

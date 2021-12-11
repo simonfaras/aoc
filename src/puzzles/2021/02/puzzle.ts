@@ -1,4 +1,4 @@
-import { Input } from '../../../utils/core';
+import { Input } from '../../../utils';
 
 function parseInput(input: Input) {
   return input.asRows().map((row) => row.split(' '));

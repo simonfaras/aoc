@@ -1,4 +1,4 @@
-import { Grid, Input } from './core';
+import { Input } from './input';
 import { EOL } from 'os';
 
 describe('Input', function () {
@@ -66,51 +66,5 @@ describe('Input', function () {
       [0, 1],
       [2, 3],
     ]);
-  });
-});
-
-describe('Grid', function () {
-  it('should return a normalized grid from asNormalized', function () {
-    const grid = new Grid([
-      [1, 2],
-      [3, 4],
-    ]);
-
-    expect(grid.asNormalized()).toEqual(
-      expect.objectContaining({
-        '0,0': 1,
-        '1,0': 2,
-        '0,1': 3,
-        '1,1': 4,
-      })
-    );
-  });
-
-  it('should provide access to cells through get', function () {
-    const grid = new Grid([
-      [1, 2],
-      [3, 4],
-    ]);
-
-    expect(grid.get(0, 0)).toEqual(1);
-    expect(grid.get(0, 1)).toEqual(3);
-    expect(grid.get(1, 0)).toEqual(2);
-    expect(grid.get(1, 1)).toEqual(4);
-  });
-
-  it('should update all', function () {
-    const grid = new Grid([
-      [1, 2],
-      [3, 4],
-    ]);
-
-    grid.updateAll((v) => {
-      return v + 1;
-    });
-
-    expect(grid.get(0, 0)).toEqual(2);
-    expect(grid.get(0, 1)).toEqual(4);
-    expect(grid.get(1, 0)).toEqual(3);
-    expect(grid.get(1, 1)).toEqual(5);
   });
 });

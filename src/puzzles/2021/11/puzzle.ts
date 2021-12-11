@@ -1,4 +1,4 @@
-import { Input, Cell, range, Grid } from '../../../utils/core';
+import { seq, Input, Cell, Grid } from '../../../utils';
 
 function parseInput(input: Input) {
   return input.asNumbersGrid('');
@@ -12,7 +12,7 @@ function step(grid: Grid<number>): number {
     const flash = flashers.shift() as Cell<number>;
     flashed.push(flash);
 
-    const neighbours = grid.getNeighbours(flash).filter((c) => c.value < 10);
+    const neighbours = grid.getNeighbours(flash.pos).filter((c) => c.value < 10);
 
     neighbours.forEach((cell) => {
       const updated = grid.set(cell.value + 1, cell.pos);
