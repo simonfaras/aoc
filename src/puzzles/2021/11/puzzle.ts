@@ -31,25 +31,18 @@ function step(grid: Grid<number>): number {
 export function first(input: Input) {
   const data = parseInput(input);
 
-  let res = 0;
-  range(100).forEach(() => {
-    res += step(data);
-  });
-
-  data.print();
-
-  return res;
+  return range(100)
+    .map(() => step(data))
+    .sum();
 }
 
 export function second(input: Input) {
   const data = parseInput(input);
 
   const all = data.size;
-  let flashes;
-  let steps = 0;
-  while (flashes !== all) {
+  let steps = 1;
+  while (step(data) !== all) {
     steps++;
-    flashes = step(data);
   }
 
   console.log(steps);
