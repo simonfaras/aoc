@@ -42,10 +42,13 @@ async function run(day) {
     ignoreInitial: true,
   });
 
+  const mute = true;
+
   let child;
   const execute = () => {
     child?.kill('SIGINT');
     child = fork('./execute-day.ts', [day.path], {
+      stdio: mute ? ['pipe', 'pipe', process.stderr, 'ipc'] : 'inherit',
       execArgv: [resolve(__dirname, '../node_modules/ts-node/dist/bin.js')],
       cwd: __dirname,
     });
