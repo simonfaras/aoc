@@ -9,6 +9,6 @@
     "noImplicitAny": true,
     "strictNullChecks": true
   },
-  "include": ["src", "scripts"],
+  "include": ["src", "bin", "scripts"],
   "exclude": ["scripts/templates", "__legacy__"]
 }
