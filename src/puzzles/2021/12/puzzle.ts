@@ -16,6 +16,20 @@ function parseInput(input: Input) {
   });
 }
 
+export function first(input: Input) {
+  const data = parseInput(input);
+
+  const paths = data.traverse(
+    'start',
+    (node) => node.id === 'end',
+    (from, to, traversal) => {
+      return to.props.isLarge || !traversal.find((node) => node.id === to.id);
+    }
+  );
+
+  return paths.length;
+}
+
 export function second(input: Input) {
   const data = parseInput(input);
 
