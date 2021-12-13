@@ -76,10 +76,13 @@ async function main() {
     console.log('SUCCESS', testResult);
     console.clear();
     console.log('RUN WITH REAL DATA');
+    const start = Date.now();
     const result = puzzle(
       readInput(path.join(currentPuzzle.path, 'input.txt'))
     );
-    console.log('RESULT:');
+    const duration = Date.now() - start;
+
+    console.log(`RESULT (${duration} ms):`);
     console.log(result);
   } else {
     console.error('FAIL EXPECTED:', expectedResult);

@@ -23,9 +23,36 @@ const neighbourOffsetsSimple = neighbourOffsets.filter(
   ([x, y]) => Math.abs(x) !== Math.abs(y)
 );
 
+function pointEq(a: Point, b: Point): boolean {
+  return a.x === b.x && a.y === b.y;
+}
+
 export class Grid<T> extends Array<Array<T>> {
   constructor(readonly source: Array<Array<T>>) {
     super();
+  }
+
+  static plot<T>(
+    points: Point[],
+    defaultValue: T,
+    value?: (point: Point) => T
+  ): Grid<T> {
+    const height = Math.max(...points.map((p) => p.y)) + 1;
+    const width = Math.max(...points.map((p) => p.x)) + 1;
+
+    const grid = new Grid<T>(
+      Array(height)
+        .fill(null)
+        .map(() => Array(width).fill(defaultValue))
+    );
+
+    if (value) {
+      points.forEach((point) => {
+        grid.set(value(point), point);
+      });
+    }
+
+    return grid;
   }
 
   static coord(x: number, y: number): Coordinate {
@@ -130,7 +157,21 @@ export class Grid<T> extends Array<Array<T>> {
       .filter((cell) => cell.value !== undefined);
   }
 
-  print(separator = ''): void {
-    console.log(this.source.map((row) => row.join(separator)).join(EOL));
+  print({
+    separator = '',
+    format,
+  }: {
+    separator?: string;
+    format?: (value: T, point: Point) => string;
+  } = {}): void {
+    console.log(
+      this.source
+        .map((row, y) =>
+          (format ? row.map((v, x) => format(v, { x, y })) : row).join(
+            separator
+          )
+        )
+        .join(EOL)
+    );
   }
 }
