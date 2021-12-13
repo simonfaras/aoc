@@ -33,7 +33,10 @@ function getDay(day, year) {
   };
 }
 
-function render() {}
+function render() {
+  process.stdout.cursorTo(0, 0);
+  process.stdout.clearScreenDown();
+}
 
 async function run(day) {
   const watcher = chokidar.watch([day.path, UTILS_PATH], {
@@ -42,7 +45,7 @@ async function run(day) {
     ignoreInitial: true,
   });
 
-  const mute = true;
+  const mute = false;
 
   let child;
   const execute = () => {
@@ -51,6 +54,10 @@ async function run(day) {
       stdio: mute ? ['pipe', 'pipe', process.stderr, 'ipc'] : 'inherit',
       execArgv: [resolve(__dirname, '../node_modules/ts-node/dist/bin.js')],
       cwd: __dirname,
+    });
+
+    child.on('spawn', () => {
+      render();
     });
 
     child.on('message', (message) => {

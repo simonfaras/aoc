@@ -7,6 +7,7 @@
   },
   "author": "Simon Farås (simon.faras@gmail.com)",
   "license": "ISC",
+  "main": "bin/program.mjs",
   "devDependencies": {
     "@types/jest": "^27.0.3",
     "chokidar": "^3.5.2",
@@ -16,5 +17,8 @@
     "ts-jest": "^27.1.1",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81"
   }
 }
