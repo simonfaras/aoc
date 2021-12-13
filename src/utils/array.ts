@@ -10,6 +10,8 @@ declare global {
 
     sum(): Array<number>;
 
+    splitAll(separator: string): Array<string[]>;
+
     duplicates(idFactory: (value: T) => string | number): Array<T>;
 
     groupBy(
@@ -67,6 +69,12 @@ Array.prototype.duplicates = function duplicates<T>(
     const id = idFactory(a);
     return arr.findIndex((b) => id === idFactory(b)) !== index;
   }).unique(idFactory);
+};
+
+Array.prototype.splitAll = function splitAll<T extends string>(
+  separator: string
+): Array<string[]> {
+  return this.map((v: T) => v.split(separator));
 };
 
 export function seq(length: number, start: number = 0): number[] {
