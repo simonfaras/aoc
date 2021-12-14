@@ -10,6 +10,8 @@ declare global {
 
     sum(): Array<number>;
 
+    last(): T;
+
     splitAll(separator: string): Array<string[]>;
 
     duplicates(idFactory: (value: T) => string | number): Array<T>;
@@ -23,6 +25,10 @@ declare global {
     ): [string | number, T[]][];
   }
 }
+
+Array.prototype.last = function last() {
+  return this[this.length - 1];
+};
 
 Array.prototype.toNumbers = function toNumbers() {
   return this.map(Number);
