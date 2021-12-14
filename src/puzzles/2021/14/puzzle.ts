@@ -18,7 +18,7 @@ function generate(input: string, rules: Record<string, string>): string {
   const res: string[] = [];
   const inject = (a: string, b?: string) => {
     if (!b) return a;
-    return [a, rules[a + b], b].join('');
+    return [a, rules[a + b]].join('');
   };
 
   input.split('').forEach((letter, i, arr) => {
@@ -33,8 +33,8 @@ function generate(input: string, rules: Record<string, string>): string {
 function bruteForce(steps: number, input: Input) {
   const { pairs, template } = parseInput(input);
 
-  const result = seq(10)
-    .reduce((code) => generate(code, pairs), template)
+  const result = seq(steps)
+    .reduce((code, step) => generate(code, pairs), template)
     .split('')
     .groupBy((v) => v);
 
