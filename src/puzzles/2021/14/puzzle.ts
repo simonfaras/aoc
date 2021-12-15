@@ -14,73 +14,67 @@ function parseInput(input: Input): {
   };
 }
 
-function generate(input: string, rules: Record<string, string>): string {
-  const res: string[] = [];
-  const inject = (a: string, b?: string) => {
-    if (!b) return a;
-    return [a, rules[a + b]].join('');
+function softForce(steps: number, input: Input) {
+  const { pairs: rules, template } = parseInput(input);
+
+  const lookup = Object.entries(rules).reduce<Record<string, [string, string]>>(
+    (acc, [pair, insert]) => {
+      return {
+        ...acc,
+        [pair]: [pair[0] + insert, insert + pair[1]],
+      };
+    },
+    {}
+  );
+
+  const counter: Record<string, number> = {};
+
+  const increment = (l: string, count: number): void => {
+    counter[l] = (counter[l] ?? 0) + count;
   };
 
-  input.split('').forEach((letter, i, arr) => {
-    res.push(inject(letter, arr[i + 1]));
-  });
-
-  return res.join('');
-}
-
-// Each step length = length + length - 2
-
-function bruteForce(steps: number, input: Input) {
-  const { pairs, template } = parseInput(input);
-
-  const result = seq(steps)
-    .reduce((code, step) => generate(code, pairs), template)
+  const initial = template
     .split('')
-    .groupBy((v) => v);
+    .reduce<Record<string, number>>((acc, l, i, arr) => {
+      increment(l, 1);
+      const next = arr[i + 1];
+      if (next) {
+        const code = l + next;
+        acc[code] = (acc[code] ?? 0) + 1;
+      }
+      return acc;
+    }, {});
+  const pairs = [initial];
 
-  const counts = Object.values(result)
-    .map((arr) => arr.length)
-    .sort((a, b) => a - b);
+  seq(steps).forEach((_, index) => {
+    let last = pairs[index];
+    let next: typeof last = {};
+    // console.log('loop', last);
+    Object.entries(last).forEach(([pair, count]) => {
+      const [a, b] = lookup[pair];
+      increment(rules[pair], count);
 
-  return counts.last() - counts[0];
-}
-
-function softForce(steps: number, input: Input) {
-  const { pairs } = parseInput(input);
-
-  const parts = Object.keys(pairs)
-    .flatMap((v) => v.split(''))
-    .unique((v) => v);
-  console.log(parts);
-
-  // When we reach the point where all pairs are present
-  // * check how many steps we took
-  // * check how many of each letter we have
-  // * Calculate the increase rate of each letter and apply formula to full steps
-
-  const inject = (pair: string) =>
-    `${pair.split('')[0]}${pairs[pair]}${pair.split('')[1]}`;
-
-  const cyclic = Object.entries(pairs).filter(([pair, out]) => {
-    const injected = inject(pair);
-
-    console.log(pair, out, injected, injected.includes(pair));
-
-    return pair;
+      next[a] = count + (next[a] ?? 0);
+      next[b] = count + (next[b] ?? 0);
+    });
+    pairs.push(next);
   });
 
-  console.log(pairs);
+  return Object.values(counter).sort((a, b) => a - b);
 }
 
 export function first(input: Input) {
-  // return bruteForce(10, input);
-  return bruteForce(10, input);
+  // To high 	3152788426517
+  //					3152788426517
+  //					3152788426516 // RÄTTS
+
+  // To low 	2188189693529
+
+  const res = softForce(10, input);
+  return res.last() - res[0];
 }
 
 export function second(input: Input) {
-  if (input.startsWith('NNCB')) return true;
-
-  console.log(bruteForce(40, input));
-
-  return true;
+  const res = softForce(40, input);
+  return res.last() - res[0];
 }
