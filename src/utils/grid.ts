@@ -60,7 +60,7 @@ export class Grid<T> extends Array<Array<T>> {
   }
 
   get dimensions(): { w: number; h: number } {
-    return { w: this.source.length, h: this.source[0].length };
+    return { h: this.source.length, w: this.source[0].length };
   }
 
   get size(): number {

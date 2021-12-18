@@ -29,14 +29,17 @@ export class Input extends String {
 
   asGrid<T>(separator = ' ', parse?: GridParser<T>): Grid<T> {
     return new Grid<T>(
-      this.asRows().map((row, row_i) =>
-        row
-          .split(separator)
-          .map(
-            (value, col_i) =>
-              parse?.(value, { x: col_i, y: row_i }) ?? (value as unknown as T)
-          )
-      )
+      this.asRows()
+        .filter((row) => row.length)
+        .map((row, row_i) =>
+          row
+            .split(separator)
+            .map(
+              (value, col_i) =>
+                parse?.(value, { x: col_i, y: row_i }) ??
+                (value as unknown as T)
+            )
+        )
     );
   }
 
