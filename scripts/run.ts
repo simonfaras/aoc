@@ -22,11 +22,13 @@ function getPuzzleMeta() {
   const day = formatDay(dayFromArgs ?? today.getDate());
   const year = yearFromArgs ?? today.getFullYear().toString();
 
-  const puzzlePath = path.resolve(process.cwd(), 'src/puzzles/', year, day);
+  const yearPath = path.resolve(process.cwd(), 'src/puzzles/', year);
+  const puzzlePath = path.join(yearPath, day);
 
   return {
     day,
     year,
+    yearPath,
     path: puzzlePath,
   };
 }
@@ -34,6 +36,9 @@ function getPuzzleMeta() {
 async function main() {
   const currentPuzzle = getPuzzleMeta();
 
+  if (!fs.existsSync(currentPuzzle.yearPath)) {
+    await mkdir(currentPuzzle.yearPath);
+  }
   if (!fs.existsSync(currentPuzzle.path)) {
     await mkdir(currentPuzzle.path);
 

@@ -1,5 +1,9 @@
 declare global {
   interface Array<T> {
+    toAsc(comparer?: (a: T, b: T) => number): Array<T>;
+
+    toDesc(comparer?: (a: T, b: T) => number): Array<T>;
+
     toNumbers(): Array<number>;
 
     toObject(keyFactory: (value: T) => string | number): {
@@ -8,7 +12,7 @@ declare global {
 
     unique(idFactory: (value: T) => string | number): Array<T>;
 
-    sum(): Array<number>;
+    sum(): number;
 
     last(): T;
 
@@ -34,7 +38,7 @@ Array.prototype.toNumbers = function toNumbers() {
   return this.map(Number);
 };
 
-Array.prototype.sum = function sum() {
+Array.prototype.sum = function sum(): number {
   return this.reduce((sum: number, n: number) => sum + n, 0);
 };
 
@@ -81,6 +85,28 @@ Array.prototype.splitAll = function splitAll<T extends string>(
   separator: string
 ): Array<string[]> {
   return this.map((v: T) => v.split(separator));
+};
+
+function compare<T>(a: T, b: T): number {
+  if (a < b) return -1;
+  if (b < a) return 1;
+  return 0;
+}
+
+Array.prototype.toAsc = function toAsc<T>(
+  this: Array<T>,
+  comparer?: (a: T, b: T) => number
+): Array<T> {
+  return [...this].sort(comparer ?? compare);
+};
+
+Array.prototype.toDesc = function toAsc<T>(
+  this: Array<T>,
+  comparer?: (a: T, b: T) => number
+): Array<T> {
+  const comp = (a: T, b: T) => (compare ?? comparer)(a, b) * -1;
+
+  return [...this].sort(comp);
 };
 
 export function seq(length: number, start: number = 0): number[] {

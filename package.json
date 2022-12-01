@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Collection of advent of code ",
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon",
+    "test": "jest --watch"
   },
   "author": "Simon Farås (simon.faras@gmail.com)",
   "license": "ISC",
