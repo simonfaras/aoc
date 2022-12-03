@@ -27,6 +27,8 @@ declare global {
     toGroupedEntries(
       keyFactory: (value: T) => string | number
     ): [string | number, T[]][];
+
+    toChunks(size: number): T[][];
   }
 }
 
@@ -107,6 +109,17 @@ Array.prototype.toDesc = function toAsc<T>(
   const comp = (a: T, b: T) => (compare ?? comparer)(a, b) * -1;
 
   return [...this].sort(comp);
+};
+
+Array.prototype.toChunks = function toChunks<T>(this: T[], size: number) {
+  const copy = this.slice();
+  const res: T[][] = [];
+
+  while (copy.length) {
+    res.push(copy.splice(0, size));
+  }
+
+  return res;
 };
 
 export function seq(length: number, start: number = 0): number[] {
