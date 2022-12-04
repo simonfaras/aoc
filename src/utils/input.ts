@@ -1,4 +1,3 @@
-import { EOL } from 'os';
 import { Grid, Point } from './grid';
 import fs from 'fs';
 
@@ -16,7 +15,13 @@ export class Input extends String {
   }
 
   asRows(): string[] {
-    return this.source.split(EOL);
+    let eol: string = '\n'
+
+    if (this.source.indexOf("\r\n") !== -1) {
+      eol = '\r\n'
+    }
+    
+    return this.source.split(eol);
   }
 
   asArray(separator = DefaultSeparator): string[] {

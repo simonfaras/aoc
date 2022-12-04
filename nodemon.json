@@ -1,6 +1,12 @@
 {
-  "watch": ["src", "scripts"],
-  "ignore": ["*/**/*.test.ts", "debug"],
+  "watch": [
+    "src",
+    "scripts"
+  ],
+  "ignore": [
+    "*/**/*.test.ts",
+    "debug"
+  ],
   "ext": "ts,json,txt",
-  "exec": "npx ts-node ./scripts/run.ts"
+  "exec": "bun run ./scripts/run.ts"
 }
