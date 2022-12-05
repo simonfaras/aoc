@@ -14,14 +14,12 @@ export class Input extends String {
     super();
   }
 
-  asRows(): string[] {
-    let eol: string = '\n'
+  get eol(): string {
+    return this.source.indexOf('\r\n') !== -1 ? '\r\n' : '\n';
+  }
 
-    if (this.source.indexOf("\r\n") !== -1) {
-      eol = '\r\n'
-    }
-    
-    return this.source.split(eol);
+  asRows(): string[] {
+    return this.source.split(this.eol);
   }
 
   asArray(separator = DefaultSeparator): string[] {
