@@ -71,7 +71,7 @@ Array.prototype.toObject = function toObject<T>(
 Array.prototype.unique = function unique<T>(
   idFactory: (value: T) => string | number
 ) {
-  return Object.values(this.toObject(idFactory));
+  return [...new Set(this.map(idFactory))];
 };
 
 Array.prototype.duplicates = function duplicates<T>(
