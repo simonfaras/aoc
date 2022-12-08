@@ -14,6 +14,8 @@ declare global {
 
     sum(): number;
 
+    min(): number;
+
     last(): T;
 
     splitAll(separator: string): Array<string[]>;
@@ -29,6 +31,8 @@ declare global {
     ): [string | number, T[]][];
 
     toChunks(size: number): T[][];
+
+    log(): T[];
   }
 }
 
@@ -42,6 +46,10 @@ Array.prototype.toNumbers = function toNumbers() {
 
 Array.prototype.sum = function sum(): number {
   return this.reduce((sum: number, n: number) => sum + n, 0);
+};
+
+Array.prototype.min = function min(): number {
+  return Math.min(...this);
 };
 
 Array.prototype.groupBy = function groupBy<T>(
@@ -120,6 +128,12 @@ Array.prototype.toChunks = function toChunks<T>(this: T[], size: number) {
   }
 
   return res;
+};
+
+Array.prototype.log = function log<T>(this: T[]) {
+  console.log(JSON.stringify(this, null, 2));
+
+  return this;
 };
 
 export function seq(length: number, start: number = 0): number[] {

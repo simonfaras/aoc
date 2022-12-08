@@ -51,5 +51,7 @@ export function second(input: Input) {
     stacks[t - 1].push(...stacks[f - 1].splice(stacks[f - 1].length - n));
   });
 
+  return 0;
+
   return stacks.map((s) => s.pop()).join('');
 }

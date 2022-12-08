@@ -5,6 +5,8 @@
   ],
   "ignore": [
     "*/**/*.test.ts",
+    "*/**/dump.json",
+    "*/**/*.dump.json",
     "debug"
   ],
   "ext": "ts,json,txt",

@@ -69,29 +69,34 @@ async function main() {
   const puzzles = await import(path.join(currentPuzzle.path, 'puzzle.ts'));
 
   const puzzle = puzzles[config.active];
-  const testResult = puzzle(
-    readInput(path.join(currentPuzzle.path, `sample_${config.sample}.txt`))
-  );
 
-  console.log(
-    `RUNNING ${currentPuzzle.year}/${currentPuzzle.day} - ${config.active}`
-  );
-  const expectedResult = config.expected[config.active];
-  if (testResult === expectedResult) {
-    console.log('SUCCESS', testResult);
-    console.clear();
-    console.log('RUN WITH REAL DATA');
-    const start = Date.now();
-    const result = puzzle(
-      readInput(path.join(currentPuzzle.path, 'input.txt'))
+  try {
+    const testResult = puzzle(
+      readInput(path.join(currentPuzzle.path, `sample_${config.sample}.txt`))
     );
-    const duration = Date.now() - start;
 
-    console.log(`RESULT (${duration} ms):`);
-    console.log(result);
-  } else {
-    console.error('FAIL EXPECTED:', expectedResult);
-    console.error('RESULT', testResult);
+    console.log(
+      `RUNNING ${currentPuzzle.year}/${currentPuzzle.day} - ${config.active}`
+    );
+    const expectedResult = config.expected[config.active];
+    if (testResult === expectedResult) {
+      console.log('SUCCESS', testResult);
+      console.clear();
+      console.log('RUN WITH REAL DATA');
+      const start = Date.now();
+      const result = puzzle(
+        readInput(path.join(currentPuzzle.path, 'input.txt'))
+      );
+      const duration = Date.now() - start;
+
+      console.log(`RESULT (${duration} ms):`);
+      console.log(result);
+    } else {
+      console.error('FAIL EXPECTED:', expectedResult);
+      console.error('RESULT', testResult);
+    }
+  } catch (e) {
+    console.error(e);
   }
 }
 
