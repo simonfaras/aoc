@@ -14,6 +14,8 @@ declare global {
 
     sum(): number;
 
+    product(): number;
+
     min(): number;
 
     last(): T;
@@ -46,6 +48,12 @@ Array.prototype.toNumbers = function toNumbers() {
 
 Array.prototype.sum = function sum(): number {
   return this.reduce((sum: number, n: number) => sum + n, 0);
+};
+
+Array.prototype.product = function product(): number {
+  if (this.length === 0) return 0;
+
+  return this.reduce((product: number, n: number) => product * n, 1);
 };
 
 Array.prototype.min = function min(): number {

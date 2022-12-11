@@ -92,6 +92,19 @@ export class Grid<T> extends Array<Array<T>> {
     return value;
   }
 
+  rows() {
+    return this.source;
+  }
+
+  columns() {
+    const rows = this.rows();
+    if (!rows[0]) return [];
+
+    return Array(rows[0].length)
+      .fill(null)
+      .map((column, i) => rows.map((row) => row[i]));
+  }
+
   updateAll(updateFn: (value: T, point: Point) => T): Grid<T> {
     this.forEachCell((v, point) => this.set(updateFn(v, point), point));
 
@@ -157,6 +170,13 @@ export class Grid<T> extends Array<Array<T>> {
       .filter((cell) => cell.value !== undefined);
   }
 
+  getNeighbour({ x, y }: Point, axis: 'x' | 'y', direction: 1 | -1): Cell<T> {
+    const pos =
+      axis === 'x' ? { x: x + direction, y } : { x, y: y + direction };
+
+    return { pos, value: this.getUnsafe(pos.x, pos.y) };
+  }
+
   print({
     separator = '',
     format,
@@ -171,7 +191,7 @@ export class Grid<T> extends Array<Array<T>> {
             separator
           )
         )
-        .join(EOL)
+        .join('\r\n') // TODO Will break sometimes
     );
   }
 }

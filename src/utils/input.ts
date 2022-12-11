@@ -1,5 +1,6 @@
 import { Grid, Point } from './grid';
 import fs from 'fs';
+import { createLogicalAnd } from 'typescript';
 
 const DefaultSeparator = ',';
 
