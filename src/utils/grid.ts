@@ -23,13 +23,41 @@ const neighbourOffsetsSimple = neighbourOffsets.filter(
   ([x, y]) => Math.abs(x) !== Math.abs(y)
 );
 
-function pointEq(a: Point, b: Point): boolean {
+export function getNeightbourPoints({ x, y }: Point, simple = true): Point[] {
+  const iterator = simple ? neighbourOffsetsSimple : neighbourOffsets;
+
+  return iterator.map(([x_o, y_o]) => {
+    const point = { x: x + x_o, y: y + y_o };
+
+    return point;
+  });
+}
+
+export function pointEq(a: Point, b: Point): boolean {
   return a.x === b.x && a.y === b.y;
 }
 
 export class Grid<T> extends Array<Array<T>> {
   constructor(readonly source: Array<Array<T>>) {
     super();
+  }
+
+  static plotNormalized<T>(
+    points: Point[],
+    defaultValue: T,
+    value?: (point: Point) => T
+  ) {
+    const minX = Math.min(...points.map((p) => p.x));
+    const minY = Math.min(...points.map((p) => p.y));
+
+    const xOffset = 0 - minX;
+    const yOffset = 0 - minY;
+
+    return Grid.plot(
+      points.map((p) => ({ x: p.x + xOffset, y: p.y + yOffset })),
+      defaultValue,
+      value
+    );
   }
 
   static plot<T>(

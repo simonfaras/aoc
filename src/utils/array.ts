@@ -96,7 +96,7 @@ Array.prototype.duplicates = function duplicates<T>(
   return this.filter((a: T, index: number, arr: T[]) => {
     const id = idFactory(a);
     return arr.findIndex((b) => id === idFactory(b)) !== index;
-  }).unique(idFactory);
+  });
 };
 
 Array.prototype.splitAll = function splitAll<T extends string>(

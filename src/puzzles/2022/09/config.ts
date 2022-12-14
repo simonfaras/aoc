@@ -1,10 +1,10 @@
 type Active = 'first' | 'second';
 
-export const sample: number = 1;
+export const sample: number = 2;
 
-export const active: Active = 'first';
+export const active: Active = 'second';
 
 export const expected = {
-  first: false,
-  second: false,
+  first: 13,
+  second: 36,
 };
