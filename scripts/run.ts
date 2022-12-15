@@ -82,7 +82,10 @@ async function main() {
     if (testResult === expectedResult) {
       console.log('SUCCESS', testResult);
       console.clear();
+      console.log('-----------------------------------');
       console.log('RUN WITH REAL DATA');
+      console.log('-----------------------------------');
+      console.debug = () => {}; // Disable debug logs
       const start = Date.now();
       const result = puzzle(
         readInput(path.join(currentPuzzle.path, 'input.txt'))

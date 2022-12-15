@@ -83,6 +83,14 @@ export class Grid<T> extends Array<Array<T>> {
     return grid;
   }
 
+  static fromDimension<T>(width: number, height: number, fill: T): Grid<T> {
+    return new Grid<T>(
+      Array(height)
+        .fill(null)
+        .map(() => Array(width).fill(fill))
+    );
+  }
+
   static coord(x: number, y: number): Coordinate {
     return `${x},${y}`;
   }
@@ -208,11 +216,13 @@ export class Grid<T> extends Array<Array<T>> {
   print({
     separator = '',
     format,
+    debug = false,
   }: {
     separator?: string;
     format?: (value: T, point: Point) => string;
+    debug?: boolean;
   } = {}): void {
-    console.log(
+    console[debug ? 'debug' : 'log'](
       this.source
         .map((row, y) =>
           (format ? row.map((v, x) => format(v, { x, y })) : row).join(
